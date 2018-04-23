@@ -15,3 +15,5 @@ pages:
                 - 'Third Eye (40 points)': 'PACTF-2018/lovelace/third-eye/README.md'
                 - 'Beats by Dr. K (55 points)': 'PACTF-2018/lovelace/beats-by-dr-k/README.md'
                 - 'The Lottery, Part Two: Untwisting Fate! (90 points)': 'PACTF-2018/lovelace/lottery-part-2/README.md'
+        - 'Hopper':
+                - 'Overview': 'PACTF-2018/hopper/README.md'
