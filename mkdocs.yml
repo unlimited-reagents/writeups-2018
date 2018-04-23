@@ -2,7 +2,7 @@ site_name: unlimited_reagents 2018 Writeups
 
 
 pages:
-- Home: 'README.md'
+- Home: 'index.md'
 - PACTF 2018:
         - 'Lovelace':
                 - 'Overview': 'PACTF-2018/lovelace/README.md'
