@@ -33,6 +33,6 @@ Keys live on keyservers.
 
 Looks like a normal signed PGP message. I had GPGTools installed on my machine, so it was as simple as pasting the signed message into a text editor and running verify PGP signature, which results in this:
 
-![alt text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PACTF-2018/lovelace/who-said-it/verifiedkey.png "the_real_answer_is_always_in_the_comments")
+![alt text](https://github.com/unlimited-reagents/writeups-2018/tree/master/PACTF-2018/lovelace/who-said-it/verifiedkey.png "the_real_answer_is_always_in_the_comments")
 
 The flag is in the parentheses: `the_real_answer_is_always_in_the_comments`
