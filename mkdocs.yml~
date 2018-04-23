@@ -2,7 +2,7 @@ site_name: unlimited_reagents 2018 Writeups
 
 
 pages:
-- Home: 'README.md'
+- Home: 'index.md'
 - PACTF 2018:
         - 'Lovelace':
                 - 'Overview': 'PACTF-2018/lovelace/README.md'
@@ -12,3 +12,4 @@ pages:
                 - 'Open Sourcery 2018': 'PACTF-2018/lovelace/open-sourcery-2018/README.md'
                 - 'Third Eye': 'PACTF-2018/lovelace/third-eye/README.md'
                 - 'Who Said It?': 'PACTF-2018/lovelace/who-said-it/README.md'
+                - 'The Lottery, Part Two: Untwisting Fate!': 'PACTF-2018/lovelace/lottery-part-2/README.md'

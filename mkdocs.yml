@@ -6,10 +6,11 @@ pages:
 - PACTF 2018:
         - 'Lovelace':
                 - 'Overview': 'PACTF-2018/lovelace/README.md'
-                - 'Let Me In': 'PACTF-2018/lovelace/let-me-in/README.md'
-                - 'Credit Card Leak': 'PACTF-2018/lovelace/credit-card-leak/README.md'
-                - 'Go Git It': 'PACTF-2018/lovelace/go-git-it/README.md'
-                - 'Open Sourcery 2018': 'PACTF-2018/lovelace/open-sourcery-2018/README.md'
-                - 'Third Eye': 'PACTF-2018/lovelace/third-eye/README.md'
-                - 'Who Said It?': 'PACTF-2018/lovelace/who-said-it/README.md'
-                - 'The Lottery, Part Two: Untwisting Fate!': 'PACTF-2018/lovelace/lottery-part-2/README.md'
+                - 'Let Me In (20 points)': 'PACTF-2018/lovelace/let-me-in/README.md'
+                - 'Go Git It (25 points)': 'PACTF-2018/lovelace/go-git-it/README.md'
+                - 'Who Said It? (25 points)': 'PACTF-2018/lovelace/who-said-it/README.md'
+                - 'Open Sourcery 2018 (30 points)': 'PACTF-2018/lovelace/open-sourcery-2018/README.md'
+                - 'Credit Card Leak (35 points)': 'PACTF-2018/lovelace/credit-card-leak/README.md'
+ 
+                - 'Third Eye (40 points)': 'PACTF-2018/lovelace/third-eye/README.md'
+                - 'The Lottery, Part Two: Untwisting Fate! (90 points)': 'PACTF-2018/lovelace/lottery-part-2/README.md'
