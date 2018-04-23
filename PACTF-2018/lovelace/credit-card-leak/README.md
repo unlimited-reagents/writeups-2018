@@ -1,5 +1,3 @@
-# Credit Card Leak (35 points)
-
 ## Problem
 
 ShoeShop was hacked, and all of their customer records were released online—including credit card numbers. One credit card in the leak is invalid, however. What is the invalid credit card number?

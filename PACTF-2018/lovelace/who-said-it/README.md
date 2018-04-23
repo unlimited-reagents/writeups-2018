@@ -1,5 +1,3 @@
-# Who Said It? (25 points)
-
 ## Problem
 
 ```

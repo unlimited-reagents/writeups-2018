@@ -1,5 +1,3 @@
-# Let Me In (10 points)
-
 ## Problem
 
 You received this account.rar file, but it is ‘protected’ under a password. Can you break in?

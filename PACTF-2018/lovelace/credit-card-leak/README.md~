@@ -13,6 +13,7 @@ The credit card numbers in the leak are obviously all invalid, but most would pa
 ## Writeup
 
 A quick google search reveals the most basic check for credit card validity: 
-(https://github.com/unlimited-reagents/writeups-2018/raw/master/PACTF-2018/lovelace/credit-card-leak/validity.png)
+
+![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PACTF-2018/lovelace/credit-card-leak/validity.png "validity check")
 
 A simple program to test each of the credit cards according to these rules reveals the flag `8692015931457397`
