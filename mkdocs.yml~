@@ -1,6 +1,3 @@
-site_name: unlimited_reagents 2018 Writeups
-
-
 pages:
 - Home: 'README.md'
 - PACTF 2018:
