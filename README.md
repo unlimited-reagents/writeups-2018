@@ -1,3 +1,3 @@
-# writeups-2018
+# unlimited_reagents 2018 Writeups
 
-Writeups by unlimited_reagents
+Writeups written by us are located here. Still trying to get MKDocs to work properly, so expect a few bugs
