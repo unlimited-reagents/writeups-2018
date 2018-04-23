@@ -1,6 +1,6 @@
 # Who Said It? (25 points)
 
-# Problem
+## Problem
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -25,11 +25,11 @@ RRQiQzJ6GS3FVJ7L2hcBMUYfVyRWnfpCUS8kpW4TPOtIhFYJ/0gixd82g2P2MdNa
 -----END PGP SIGNATURE-----
 ```
 
-# Hint
+## Hint
 
 Keys live on keyservers.
 
-# Writeup
+## Writeup
 
 Looks like a normal signed PGP message. I had GPGTools installed on my machine, so it was as simple as pasting the signed message into a text editor and running verify PGP signature, which results in this:
 
