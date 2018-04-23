@@ -4,7 +4,8 @@ site_name: unlimited_reagents 2018 Writeups
 pages:
 - Home: 'README.md'
 - PACTF 2018:
-        - 'Lovelace': 'PACTF-2018/lovelace/README.md'
+        - 'Lovelace':
+                - 'Overview': 'PACTF-2018/lovelace/README.md'
                 - 'Let Me In': 'PACTF-2018/lovelace/let-me-in/README.md'
                 - 'Credit Card Leak': 'PACTF-2018/lovelace/credit-card-leak/README.md'
                 - 'Go Git It': 'PACTF-2018/lovelace/go-git-it/README.md'
