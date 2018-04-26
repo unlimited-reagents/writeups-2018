@@ -31,3 +31,6 @@ Setting a breakpoint here with `b *0x0000555555559c8e` we continue execution wit
 If we run `c` a few more times, we can note that there seems to be a suspicious string at `0x5555557898b0` that looks a lot like the printed base64. Digging around for strings around this memory with `x /40s 0x5555557898b0-0x50` we find our flag `why_use_breakpoints_if_you_have_good_timing`.
 
 ![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PACTF-2018/lovelace/getting-to-know-gdb/strings.png "strings")
+
+Alternatively, if we didn't have the magic of pwndbg, we could see that this location is significant because right before the call to print, some shuffling occurs with the r13, rbp, rdi, and r13 registers. We examine the location of these, and `x $r13` tells us that r13 is at `0x7fffffffdab0`. Searching around a bit we find that nearby (at `0x7fffffffdad0`) we have another address (`0x7fffffffdb50`) which itself has another address (`0x7fffffffdaf0`) which has something resembling a heap address at it (`0x5555557898b0`) which has the suspicious string. 
+In short, you should use pwndbg :p
