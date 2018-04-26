@@ -1,0 +1,1358 @@
+   0x00005555555587d0 <+0>:	push   rbp
+   0x00005555555587d1 <+1>:	push   r15
+   0x00005555555587d3 <+3>:	push   r14
+   0x00005555555587d5 <+5>:	push   r13
+   0x00005555555587d7 <+7>:	push   r12
+   0x00005555555587d9 <+9>:	push   rbx
+   0x00005555555587da <+10>:	sub    rsp,0x188
+   0x00005555555587e1 <+17>:	lea    rax,[rip+0x22c648]        # 0x555555784e30 <ref.1v>
+   0x00005555555587e8 <+24>:	mov    QWORD PTR [rsp],rax
+   0x00005555555587ec <+28>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x00005555555587f5 <+37>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555587fe <+46>:	lea    rbx,[rip+0x1f45b]        # 0x555555577c60 <str.1x>
+   0x0000555555558805 <+53>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x000055555555880a <+58>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558813 <+67>:	mov    rdi,rsp
+   0x0000555555558816 <+70>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x000055555555881b <+75>:	lea    rax,[rip+0x22c61e]        # 0x555555784e40 <ref.1y>
+   0x0000555555558822 <+82>:	mov    QWORD PTR [rsp],rax
+   0x0000555555558826 <+86>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x000055555555882f <+95>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555558838 <+104>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x000055555555883d <+109>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558846 <+118>:	mov    rdi,rsp
+   0x0000555555558849 <+121>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x000055555555884e <+126>:	lea    rbp,[rip+0x22c5fb]        # 0x555555784e50 <ref.1A>
+   0x0000555555558855 <+133>:	mov    QWORD PTR [rsp],rbp
+   0x0000555555558859 <+137>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x0000555555558862 <+146>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x000055555555886b <+155>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558870 <+160>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558879 <+169>:	mov    rdi,rsp
+   0x000055555555887c <+172>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558881 <+177>:	lea    rax,[rip+0x22c5d8]        # 0x555555784e60 <ref.1C>
+   0x0000555555558888 <+184>:	mov    QWORD PTR [rsp],rax
+   0x000055555555888c <+188>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x0000555555558895 <+197>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x000055555555889e <+206>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x00005555555588a3 <+211>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x00005555555588ac <+220>:	mov    rdi,rsp
+   0x00005555555588af <+223>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x00005555555588b4 <+228>:	lea    rax,[rip+0x22c5b5]        # 0x555555784e70 <ref.1E>
+   0x00005555555588bb <+235>:	mov    QWORD PTR [rsp],rax
+   0x00005555555588bf <+239>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x00005555555588c8 <+248>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555588d1 <+257>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x00005555555588d6 <+262>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x00005555555588df <+271>:	mov    rdi,rsp
+   0x00005555555588e2 <+274>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x00005555555588e7 <+279>:	mov    QWORD PTR [rsp],rbp
+   0x00005555555588eb <+283>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x00005555555588f4 <+292>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555588fd <+301>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558902 <+306>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x000055555555890b <+315>:	mov    rdi,rsp
+   0x000055555555890e <+318>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558913 <+323>:	lea    rax,[rip+0x22c566]        # 0x555555784e80 <ref.1G>
+   0x000055555555891a <+330>:	mov    QWORD PTR [rsp],rax
+   0x000055555555891e <+334>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x0000555555558927 <+343>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555558930 <+352>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558935 <+357>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x000055555555893e <+366>:	mov    rdi,rsp
+   0x0000555555558941 <+369>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558946 <+374>:	lea    rax,[rip+0x22c543]        # 0x555555784e90 <ref.1I>
+   0x000055555555894d <+381>:	mov    QWORD PTR [rsp],rax
+   0x0000555555558951 <+385>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x000055555555895a <+394>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555558963 <+403>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558968 <+408>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558971 <+417>:	mov    rdi,rsp
+   0x0000555555558974 <+420>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558979 <+425>:	mov    QWORD PTR [rsp],rbp
+   0x000055555555897d <+429>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x0000555555558986 <+438>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x000055555555898f <+447>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558994 <+452>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x000055555555899d <+461>:	mov    rdi,rsp
+   0x00005555555589a0 <+464>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x00005555555589a5 <+469>:	lea    rax,[rip+0x22c4f4]        # 0x555555784ea0 <ref.1K>
+   0x00005555555589ac <+476>:	mov    QWORD PTR [rsp],rax
+   0x00005555555589b0 <+480>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x00005555555589b9 <+489>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555589c2 <+498>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x00005555555589c7 <+503>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x00005555555589d0 <+512>:	mov    rdi,rsp
+   0x00005555555589d3 <+515>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x00005555555589d8 <+520>:	lea    rax,[rip+0x22c4d1]        # 0x555555784eb0 <ref.1M>
+   0x00005555555589df <+527>:	mov    QWORD PTR [rsp],rax
+   0x00005555555589e3 <+531>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x00005555555589ec <+540>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555589f5 <+549>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x00005555555589fa <+554>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558a03 <+563>:	mov    rdi,rsp
+   0x0000555555558a06 <+566>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558a0b <+571>:	mov    QWORD PTR [rsp],rbp
+   0x0000555555558a0f <+575>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x0000555555558a18 <+584>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555558a21 <+593>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555558a26 <+598>:	mov    QWORD PTR [rsp+0x28],0x0
+   0x0000555555558a2f <+607>:	mov    rdi,rsp
+   0x0000555555558a32 <+610>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555558a37 <+615>:	call   0x55555555cf90 <_ZN4rand10thread_rng17h1651a4bbdda9bcb3E>
+   0x0000555555558a3c <+620>:	mov    QWORD PTR [rsp+0x118],rax
+   0x0000555555558a44 <+628>:	mov    rdx,rsp
+   0x0000555555558a47 <+631>:	mov    edi,0x8
+   0x0000555555558a4c <+636>:	mov    esi,0x4
+   0x0000555555558a51 <+641>:	call   0x55555555a250 <__rust_alloc>
+   0x0000555555558a56 <+646>:	mov    rbx,rax
+   0x0000555555558a59 <+649>:	test   rbx,rbx
+   0x0000555555558a5c <+652>:	je     0x55555555a07d <_ZN6binary4main17hf421c7ec894951b1E+6317>
+   0x0000555555558a62 <+658>:	mov    DWORD PTR [rbx],0x20
+   0x0000555555558a68 <+664>:	mov    DWORD PTR [rbx+0x4],0x20
+   0x0000555555558a6f <+671>:	mov    QWORD PTR [rsp+0x160],rbx
+   0x0000555555558a77 <+679>:	movdqa xmm0,XMMWORD PTR [rip+0x1ee51]        # 0x5555555778d0
+   0x0000555555558a7f <+687>:	movdqu XMMWORD PTR [rsp+0x168],xmm0
+   0x0000555555558a88 <+696>:	lea    rbp,[rsp+0x118]
+   0x0000555555558a90 <+704>:	mov    rdi,rbp
+   0x0000555555558a93 <+707>:	call   0x55555555d060 <_ZN45_$LT$rand..ThreadRng$u20$as$u20$rand..Rng$GT$8next_u6417h787408e0787d47d2E>
+   0x0000555555558a98 <+712>:	cmp    rax,0xfffffffffffffffd
+   0x0000555555558a9c <+716>:	ja     0x555555558a90 <_ZN6binary4main17hf421c7ec894951b1E+704>
+   0x0000555555558a9e <+718>:	and    eax,0x1
+   0x0000555555558aa1 <+721>:	shl    rax,0x2
+   0x0000555555558aa5 <+725>:	add    rbx,rax
+   0x0000555555558aa8 <+728>:	je     0x55555555a09f <_ZN6binary4main17hf421c7ec894951b1E+6351>
+   0x0000555555558aae <+734>:	mov    al,BYTE PTR [rbx]
+   0x0000555555558ab0 <+736>:	movaps xmm0,XMMWORD PTR [rip+0x1ee29]        # 0x5555555778e0
+   0x0000555555558ab7 <+743>:	movaps XMMWORD PTR [rsp+0xa0],xmm0
+   0x0000555555558abf <+751>:	movaps xmm0,XMMWORD PTR [rip+0x1ee2a]        # 0x5555555778f0
+   0x0000555555558ac6 <+758>:	movaps XMMWORD PTR [rsp+0xb0],xmm0
+   0x0000555555558ace <+766>:	mov    BYTE PTR [rsp+0xc0],0x67
+   0x0000555555558ad6 <+774>:	mov    BYTE PTR [rsp+0xc1],0x6f
+   0x0000555555558ade <+782>:	mov    BYTE PTR [rsp+0xc2],0x6f
+   0x0000555555558ae6 <+790>:	mov    BYTE PTR [rsp+0xc3],0x64
+   0x0000555555558aee <+798>:	mov    BYTE PTR [rsp+0xc4],0x5f
+   0x0000555555558af6 <+806>:	mov    BYTE PTR [rsp+0xc5],0x74
+   0x0000555555558afe <+814>:	mov    BYTE PTR [rsp+0xc6],0x69
+   0x0000555555558b06 <+822>:	mov    BYTE PTR [rsp+0xc7],0x6d
+   0x0000555555558b0e <+830>:	mov    BYTE PTR [rsp+0xc8],0x69
+   0x0000555555558b16 <+838>:	mov    BYTE PTR [rsp+0xc9],0x6e
+   0x0000555555558b1e <+846>:	mov    BYTE PTR [rsp+0xca],0x67
+   0x0000555555558b26 <+854>:	mov    BYTE PTR [rsp+0xcb],al
+   0x0000555555558b2d <+861>:	mov    rax,QWORD PTR [rip+0x1efec]        # 0x555555577b20 <const.1m+16>
+   0x0000555555558b34 <+868>:	mov    QWORD PTR [rsp+0xf0],rax
+   0x0000555555558b3c <+876>:	movdqu xmm0,XMMWORD PTR [rip+0x1efcc]        # 0x555555577b10 <const.1m>
+   0x0000555555558b44 <+884>:	movdqa XMMWORD PTR [rsp+0xe0],xmm0
+   0x0000555555558b4d <+893>:	lea    rdi,[rsp+0x40]
+   0x0000555555558b52 <+898>:	lea    rdx,[rsp+0xe0]
+   0x0000555555558b5a <+906>:	mov    esi,0x2c
+   0x0000555555558b5f <+911>:	call   0x55555555b0a0 <_ZN6base646encode12encoded_size17h43525f70931340cdE>
+   0x0000555555558b64 <+916>:	cmp    QWORD PTR [rsp+0x40],0x0
+   0x0000555555558b6a <+922>:	je     0x55555555a0ab <_ZN6binary4main17hf421c7ec894951b1E+6363>
+   0x0000555555558b70 <+928>:	mov    rbx,QWORD PTR [rsp+0x48]
+   0x0000555555558b75 <+933>:	test   rbx,rbx
+   0x0000555555558b78 <+936>:	je     0x555555558b97 <_ZN6binary4main17hf421c7ec894951b1E+967>
+   0x0000555555558b7a <+938>:	mov    rdx,rsp
+   0x0000555555558b7d <+941>:	mov    esi,0x1
+   0x0000555555558b82 <+946>:	mov    rdi,rbx
+   0x0000555555558b85 <+949>:	call   0x55555555a250 <__rust_alloc>
+   0x0000555555558b8a <+954>:	mov    r14,rax
+   0x0000555555558b8d <+957>:	test   r14,r14
+   0x0000555555558b90 <+960>:	jne    0x555555558b9d <_ZN6binary4main17hf421c7ec894951b1E+973>
+   0x0000555555558b92 <+962>:	jmp    0x555555559d30 <_ZN6binary4main17hf421c7ec894951b1E+5472>
+   0x0000555555558b97 <+967>:	mov    r14d,0x1
+   0x0000555555558b9d <+973>:	mov    QWORD PTR [rsp+0x70],r14
+   0x0000555555558ba2 <+978>:	mov    QWORD PTR [rsp+0x78],rbx
+   0x0000555555558ba7 <+983>:	mov    QWORD PTR [rsp+0x80],0x0
+   0x0000555555558bb3 <+995>:	mov    rax,QWORD PTR [rsp+0xf0]
+   0x0000555555558bbb <+1003>:	mov    QWORD PTR [rsp+0x10],rax
+   0x0000555555558bc0 <+1008>:	movdqa xmm0,XMMWORD PTR [rsp+0xe0]
+   0x0000555555558bc9 <+1017>:	movdqa XMMWORD PTR [rsp],xmm0
+   0x0000555555558bce <+1022>:	lea    rdi,[rsp+0x40]
+   0x0000555555558bd3 <+1027>:	mov    rdx,rsp
+   0x0000555555558bd6 <+1030>:	mov    esi,0x2c
+   0x0000555555558bdb <+1035>:	call   0x55555555b0a0 <_ZN6base646encode12encoded_size17h43525f70931340cdE>
+   0x0000555555558be0 <+1040>:	cmp    QWORD PTR [rsp+0x40],0x0
+   0x0000555555558be6 <+1046>:	je     0x55555555a0c3 <_ZN6binary4main17hf421c7ec894951b1E+6387>
+   0x0000555555558bec <+1052>:	mov    rbp,QWORD PTR [rsp+0x48]
+   0x0000555555558bf1 <+1057>:	test   rbp,rbp
+   0x0000555555558bf4 <+1060>:	je     0x555555558c3e <_ZN6binary4main17hf421c7ec894951b1E+1134>
+   0x0000555555558bf6 <+1062>:	lea    rdi,[rsp+0x70]
+   0x0000555555558bfb <+1067>:	mov    rsi,rbp
+   0x0000555555558bfe <+1070>:	call   0x555555558360 <_ZN33_$LT$alloc..vec..Vec$LT$T$GT$$GT$7reserve17hff3cdc1123f50b03E>
+   0x0000555555558c03 <+1075>:	mov    r14,QWORD PTR [rsp+0x70]
+   0x0000555555558c08 <+1080>:	mov    rbx,QWORD PTR [rsp+0x80]
+   0x0000555555558c10 <+1088>:	lea    rdi,[r14+rbx*1]
+   0x0000555555558c14 <+1092>:	cmp    rbp,0x2
+   0x0000555555558c18 <+1096>:	jb     0x555555558c2e <_ZN6binary4main17hf421c7ec894951b1E+1118>
+   0x0000555555558c1a <+1098>:	lea    rdx,[rbp-0x1]
+   0x0000555555558c1e <+1102>:	lea    rbx,[rbx+rbp*1-0x1]
+   0x0000555555558c23 <+1107>:	xor    esi,esi
+   0x0000555555558c25 <+1109>:	call   0x555555558078
+   0x0000555555558c2a <+1114>:	lea    rdi,[r14+rbx*1]
+   0x0000555555558c2e <+1118>:	mov    BYTE PTR [rdi],0x0
+   0x0000555555558c31 <+1121>:	inc    rbx
+   0x0000555555558c34 <+1124>:	mov    QWORD PTR [rsp+0x80],rbx
+   0x0000555555558c3c <+1132>:	jmp    0x555555558c40 <_ZN6binary4main17hf421c7ec894951b1E+1136>
+   0x0000555555558c3e <+1134>:	xor    ebx,ebx
+   0x0000555555558c40 <+1136>:	lea    rdi,[rsp+0xa0]
+   0x0000555555558c48 <+1144>:	mov    rdx,rsp
+   0x0000555555558c4b <+1147>:	mov    esi,0x2c
+   0x0000555555558c50 <+1152>:	mov    rcx,rbp
+   0x0000555555558c53 <+1155>:	mov    r8,r14
+   0x0000555555558c56 <+1158>:	mov    r9,rbx
+   0x0000555555558c59 <+1161>:	call   0x55555555aa00 <_ZN6base646encode29encode_with_padding_line_wrap17h200e5269bdac38a9E>
+   0x0000555555558c5e <+1166>:	mov    rax,QWORD PTR [rsp+0x80]
+   0x0000555555558c66 <+1174>:	mov    QWORD PTR [rsp+0x130],rax
+   0x0000555555558c6e <+1182>:	movups xmm0,XMMWORD PTR [rsp+0x70]
+   0x0000555555558c73 <+1187>:	movaps XMMWORD PTR [rsp+0x120],xmm0
+   0x0000555555558c7b <+1195>:	mov    rsi,QWORD PTR [rsp+0x120]
+   0x0000555555558c83 <+1203>:	mov    rbx,QWORD PTR [rsp+0x130]
+   0x0000555555558c8b <+1211>:	lea    rcx,[rbx*4+0x0]
+   0x0000555555558c93 <+1219>:	movabs rdx,0xaaaaaaaaaaaaaaab
+   0x0000555555558c9d <+1229>:	mov    rax,rcx
+   0x0000555555558ca0 <+1232>:	mul    rdx
+   0x0000555555558ca3 <+1235>:	mov    rbp,rdx
+   0x0000555555558ca6 <+1238>:	shr    rbp,1
+   0x0000555555558ca9 <+1241>:	cmp    rcx,0x3
+   0x0000555555558cad <+1245>:	jae    0x555555558cb7 <_ZN6binary4main17hf421c7ec894951b1E+1255>
+   0x0000555555558caf <+1247>:	mov    r13d,0x1
+   0x0000555555558cb5 <+1253>:	jmp    0x555555558cd9 <_ZN6binary4main17hf421c7ec894951b1E+1289>
+   0x0000555555558cb7 <+1255>:	mov    rdx,rsp
+   0x0000555555558cba <+1258>:	mov    r14,rsi
+   0x0000555555558cbd <+1261>:	mov    esi,0x1
+   0x0000555555558cc2 <+1266>:	mov    rdi,rbp
+   0x0000555555558cc5 <+1269>:	call   0x55555555a250 <__rust_alloc>
+   0x0000555555558cca <+1274>:	mov    rsi,r14
+   0x0000555555558ccd <+1277>:	mov    r13,rax
+   0x0000555555558cd0 <+1280>:	test   r13,r13
+   0x0000555555558cd3 <+1283>:	je     0x55555555a13f <_ZN6binary4main17hf421c7ec894951b1E+6511>
+   0x0000555555558cd9 <+1289>:	mov    QWORD PTR [rsp+0x40],r13
+   0x0000555555558cde <+1294>:	mov    QWORD PTR [rsp+0x48],rbp
+   0x0000555555558ce3 <+1299>:	mov    QWORD PTR [rsp+0x50],0x0
+   0x0000555555558cec <+1308>:	mov    rax,QWORD PTR [rip+0x1ee2d]        # 0x555555577b20 <const.1m+16>
+   0x0000555555558cf3 <+1315>:	mov    QWORD PTR [rsp+0xf0],rax
+   0x0000555555558cfb <+1323>:	movdqu xmm0,XMMWORD PTR [rip+0x1ee0d]        # 0x555555577b10 <const.1m>
+   0x0000555555558d03 <+1331>:	movdqa XMMWORD PTR [rsp+0xe0],xmm0
+   0x0000555555558d0c <+1340>:	cmp    BYTE PTR [rsp+0xf2],0x0
+   0x0000555555558d14 <+1348>:	je     0x555555558d38 <_ZN6binary4main17hf421c7ec894951b1E+1384>
+   0x0000555555558d16 <+1350>:	lea    rdi,[rsp+0x70]
+   0x0000555555558d1b <+1355>:	mov    rdx,rbx
+   0x0000555555558d1e <+1358>:	call   0x55555555b1f0 <_ZN6base646decode23copy_without_whitespace17h86fccf412855df3fE>
+   0x0000555555558d23 <+1363>:	mov    rsi,QWORD PTR [rsp+0x70]
+   0x0000555555558d28 <+1368>:	mov    rbx,QWORD PTR [rsp+0x80]
+   0x0000555555558d30 <+1376>:	mov    al,0x1
+   0x0000555555558d32 <+1378>:	mov    DWORD PTR [rsp+0x6c],eax
+   0x0000555555558d36 <+1382>:	jmp    0x555555558d40 <_ZN6binary4main17hf421c7ec894951b1E+1392>
+   0x0000555555558d38 <+1384>:	mov    DWORD PTR [rsp+0x6c],0x0
+   0x0000555555558d40 <+1392>:	mov    QWORD PTR [rsp+0x38],rsi
+   0x0000555555558d45 <+1397>:	mov    rdi,rsi
+   0x0000555555558d48 <+1400>:	mov    rsi,rbx
+   0x0000555555558d4b <+1403>:	call   0x55555555b1c0 <_ZN6base646decode10num_chunks17h92c8c282a1417865E>
+   0x0000555555558d50 <+1408>:	mov    QWORD PTR [rsp+0xd8],rax
+   0x0000555555558d58 <+1416>:	mov    ecx,0x6
+   0x0000555555558d5d <+1421>:	mov    rax,QWORD PTR [rsp+0xd8]
+   0x0000555555558d65 <+1429>:	mul    rcx
+   0x0000555555558d68 <+1432>:	mov    rbp,rax
+   0x0000555555558d6b <+1435>:	jo     0x55555555a0d4 <_ZN6binary4main17hf421c7ec894951b1E+6404>
+   0x0000555555558d71 <+1441>:	test   rbp,rbp
+   0x0000555555558d74 <+1444>:	je     0x555555558dca <_ZN6binary4main17hf421c7ec894951b1E+1530>
+   0x0000555555558d76 <+1446>:	lea    rdi,[rsp+0x40]
+   0x0000555555558d7b <+1451>:	mov    rsi,rbp
+   0x0000555555558d7e <+1454>:	call   0x555555558360 <_ZN33_$LT$alloc..vec..Vec$LT$T$GT$$GT$7reserve17hff3cdc1123f50b03E>
+   0x0000555555558d83 <+1459>:	mov    r13,QWORD PTR [rsp+0x40]
+   0x0000555555558d88 <+1464>:	mov    rax,QWORD PTR [rsp+0x50]
+   0x0000555555558d8d <+1469>:	lea    rdi,[r13+rax*1+0x0]
+   0x0000555555558d92 <+1474>:	cmp    rbp,0x2
+   0x0000555555558d96 <+1478>:	jb     0x555555558db5 <_ZN6binary4main17hf421c7ec894951b1E+1509>
+   0x0000555555558d98 <+1480>:	lea    rax,[rax+rbp*1-0x1]
+   0x0000555555558d9d <+1485>:	dec    rbp
+   0x0000555555558da0 <+1488>:	xor    esi,esi
+   0x0000555555558da2 <+1490>:	mov    rdx,rbp
+   0x0000555555558da5 <+1493>:	mov    rbp,rax
+   0x0000555555558da8 <+1496>:	call   0x555555558078
+   0x0000555555558dad <+1501>:	mov    rax,rbp
+   0x0000555555558db0 <+1504>:	lea    rdi,[r13+rax*1+0x0]
+   0x0000555555558db5 <+1509>:	mov    BYTE PTR [rdi],0x0
+   0x0000555555558db8 <+1512>:	inc    rax
+   0x0000555555558dbb <+1515>:	mov    QWORD PTR [rsp+0x98],rax
+   0x0000555555558dc3 <+1523>:	mov    QWORD PTR [rsp+0x50],rax
+   0x0000555555558dc8 <+1528>:	jmp    0x555555558dd4 <_ZN6binary4main17hf421c7ec894951b1E+1540>
+   0x0000555555558dca <+1530>:	xor    eax,eax
+   0x0000555555558dcc <+1532>:	mov    QWORD PTR [rsp+0x98],rax
+   0x0000555555558dd4 <+1540>:	lea    rdi,[rsp+0xf0]
+   0x0000555555558ddc <+1548>:	call   0x55555555b4b0 <_ZN6base6412CharacterSet12decode_table17h8ce2fe73197bd99fE>
+   0x0000555555558de1 <+1553>:	mov    ecx,ebx
+   0x0000555555558de3 <+1555>:	and    cl,0x7
+   0x0000555555558de6 <+1558>:	cmp    cl,0x5
+   0x0000555555558de9 <+1561>:	ja     0x555555558e1e <_ZN6binary4main17hf421c7ec894951b1E+1614>
+   0x0000555555558deb <+1563>:	mov    edi,0x1
+   0x0000555555558df0 <+1568>:	mov    ecx,0x8
+   0x0000555555558df5 <+1573>:	mov    edx,ebx
+   0x0000555555558df7 <+1575>:	and    edx,0x7
+   0x0000555555558dfa <+1578>:	lea    rsi,[rip+0x1eb0f]        # 0x555555577910
+   0x0000555555558e01 <+1585>:	movsxd rdx,DWORD PTR [rsi+rdx*4]
+   0x0000555555558e05 <+1589>:	add    rdx,rsi
+   0x0000555555558e08 <+1592>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x0000555555558e0d <+1597>:	mov    r9,QWORD PTR [rsp+0x98]
+   0x0000555555558e15 <+1605>:	jmp    rdx
+   0x0000555555558e17 <+1607>:	mov    ecx,0xa
+   0x0000555555558e1c <+1612>:	jmp    0x555555558e3e <_ZN6binary4main17hf421c7ec894951b1E+1646>
+   0x0000555555558e1e <+1614>:	mov    ecx,ebx
+   0x0000555555558e20 <+1616>:	and    ecx,0x7
+   0x0000555555558e23 <+1619>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x0000555555558e28 <+1624>:	mov    r9,QWORD PTR [rsp+0x98]
+   0x0000555555558e30 <+1632>:	jmp    0x555555558e3e <_ZN6binary4main17hf421c7ec894951b1E+1646>
+   0x0000555555558e32 <+1634>:	mov    ecx,0xb
+   0x0000555555558e37 <+1639>:	jmp    0x555555558e3e <_ZN6binary4main17hf421c7ec894951b1E+1646>
+   0x0000555555558e39 <+1641>:	mov    ecx,0xc
+   0x0000555555558e3e <+1646>:	xor    edi,edi
+   0x0000555555558e40 <+1648>:	mov    rdx,rbx
+   0x0000555555558e43 <+1651>:	sub    rdx,rcx
+   0x0000555555558e46 <+1654>:	cmovb  rdx,rdi
+   0x0000555555558e4a <+1658>:	mov    r8,rdx
+   0x0000555555558e4d <+1661>:	sub    r8,0x20
+   0x0000555555558e51 <+1665>:	mov    QWORD PTR [rsp+0x60],r13
+   0x0000555555558e56 <+1670>:	mov    QWORD PTR [rsp+0x110],rbx
+   0x0000555555558e5e <+1678>:	jae    0x555555558e72 <_ZN6binary4main17hf421c7ec894951b1E+1698>
+   0x0000555555558e60 <+1680>:	xor    r15d,r15d
+   0x0000555555558e63 <+1683>:	sub    rdx,0x8
+   0x0000555555558e67 <+1687>:	jae    0x5555555592f5 <_ZN6binary4main17hf421c7ec894951b1E+2853>
+   0x0000555555558e6d <+1693>:	jmp    0x555555559463 <_ZN6binary4main17hf421c7ec894951b1E+3219>
+   0x0000555555558e72 <+1698>:	mov    QWORD PTR [rsp+0xd0],rdx
+   0x0000555555558e7a <+1706>:	mov    r15d,0x10
+   0x0000555555558e80 <+1712>:	xor    edi,edi
+   0x0000555555558e82 <+1714>:	data16 data16 data16 data16 nop WORD PTR cs:[rax+rax*1+0x0]
+   0x0000555555558e90 <+1728>:	lea    r10,[r15+0x10]
+   0x0000555555558e94 <+1732>:	cmp    r15,0xfffffffffffffff0
+   0x0000555555558e98 <+1736>:	je     0x555555559da6 <_ZN6binary4main17hf421c7ec894951b1E+5590>
+   0x0000555555558e9e <+1742>:	cmp    r10,rbx
+   0x0000555555558ea1 <+1745>:	ja     0x555555559db5 <_ZN6binary4main17hf421c7ec894951b1E+5605>
+   0x0000555555558ea7 <+1751>:	lea    rdx,[rdi+0x1a]
+   0x0000555555558eab <+1755>:	cmp    rdx,r9
+   0x0000555555558eae <+1758>:	ja     0x555555559dc0 <_ZN6binary4main17hf421c7ec894951b1E+5616>
+   0x0000555555558eb4 <+1764>:	movzx  ebp,BYTE PTR [rsi+r15*1-0x10]
+   0x0000555555558eba <+1770>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x0000555555558ebf <+1775>:	cmp    r14,0xff
+   0x0000555555558ec6 <+1782>:	je     0x555555559dcb <_ZN6binary4main17hf421c7ec894951b1E+5627>
+   0x0000555555558ecc <+1788>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xf]
+   0x0000555555558ed2 <+1794>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x0000555555558ed7 <+1799>:	cmp    r11,0xff
+   0x0000555555558ede <+1806>:	je     0x555555559dd4 <_ZN6binary4main17hf421c7ec894951b1E+5636>
+   0x0000555555558ee4 <+1812>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xe]
+   0x0000555555558eea <+1818>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x0000555555558eef <+1823>:	cmp    r12,0xff
+   0x0000555555558ef6 <+1830>:	je     0x555555559ddd <_ZN6binary4main17hf421c7ec894951b1E+5645>
+   0x0000555555558efc <+1836>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xd]
+   0x0000555555558f02 <+1842>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x0000555555558f06 <+1846>:	cmp    rbx,0xff
+   0x0000555555558f0d <+1853>:	je     0x555555559de6 <_ZN6binary4main17hf421c7ec894951b1E+5654>
+   0x0000555555558f13 <+1859>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xc]
+   0x0000555555558f19 <+1865>:	movzx  r13d,BYTE PTR [rax+rbp*1]
+   0x0000555555558f1e <+1870>:	cmp    r13,0xff
+   0x0000555555558f25 <+1877>:	je     0x555555559def <_ZN6binary4main17hf421c7ec894951b1E+5663>
+   0x0000555555558f2b <+1883>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xb]
+   0x0000555555558f31 <+1889>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x0000555555558f35 <+1893>:	cmp    rcx,0xff
+   0x0000555555558f3c <+1900>:	je     0x555555559df8 <_ZN6binary4main17hf421c7ec894951b1E+5672>
+   0x0000555555558f42 <+1906>:	movzx  ebp,BYTE PTR [rsi+r15*1-0xa]
+   0x0000555555558f48 <+1912>:	movzx  edx,BYTE PTR [rax+rbp*1]
+   0x0000555555558f4c <+1916>:	cmp    rdx,0xff
+   0x0000555555558f53 <+1923>:	je     0x555555559e01 <_ZN6binary4main17hf421c7ec894951b1E+5681>
+   0x0000555555558f59 <+1929>:	movzx  ebp,BYTE PTR [rsi+r15*1-0x9]
+   0x0000555555558f5f <+1935>:	mov    r9,rsi
+   0x0000555555558f62 <+1938>:	movzx  esi,BYTE PTR [rax+rbp*1]
+   0x0000555555558f66 <+1942>:	cmp    rsi,0xff
+   0x0000555555558f6d <+1949>:	je     0x555555559e0a <_ZN6binary4main17hf421c7ec894951b1E+5690>
+   0x0000555555558f73 <+1955>:	shl    r11,0x34
+   0x0000555555558f77 <+1959>:	shl    r14,0x3a
+   0x0000555555558f7b <+1963>:	or     r14,r11
+   0x0000555555558f7e <+1966>:	shl    r12,0x2e
+   0x0000555555558f82 <+1970>:	shl    rbx,0x28
+   0x0000555555558f86 <+1974>:	or     rbx,r12
+   0x0000555555558f89 <+1977>:	or     rbx,r14
+   0x0000555555558f8c <+1980>:	shl    r13,0x22
+   0x0000555555558f90 <+1984>:	shl    rcx,0x1c
+   0x0000555555558f94 <+1988>:	or     rcx,r13
+   0x0000555555558f97 <+1991>:	shl    rdx,0x16
+   0x0000555555558f9b <+1995>:	or     rdx,rcx
+   0x0000555555558f9e <+1998>:	or     rdx,rbx
+   0x0000555555558fa1 <+2001>:	shl    rsi,0x10
+   0x0000555555558fa5 <+2005>:	or     rsi,rdx
+   0x0000555555558fa8 <+2008>:	bswap  rsi
+   0x0000555555558fab <+2011>:	mov    rcx,QWORD PTR [rsp+0x60]
+   0x0000555555558fb0 <+2016>:	mov    QWORD PTR [rcx+rdi*1],rsi
+   0x0000555555558fb4 <+2020>:	movzx  ebp,BYTE PTR [r9+r15*1-0x8]
+   0x0000555555558fba <+2026>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x0000555555558fbf <+2031>:	cmp    r14,0xff
+   0x0000555555558fc6 <+2038>:	je     0x555555559e13 <_ZN6binary4main17hf421c7ec894951b1E+5699>
+   0x0000555555558fcc <+2044>:	movzx  ebp,BYTE PTR [r9+r15*1-0x7]
+   0x0000555555558fd2 <+2050>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x0000555555558fd7 <+2055>:	cmp    r11,0xff
+   0x0000555555558fde <+2062>:	je     0x555555559e1c <_ZN6binary4main17hf421c7ec894951b1E+5708>
+   0x0000555555558fe4 <+2068>:	movzx  ebp,BYTE PTR [r9+r15*1-0x6]
+   0x0000555555558fea <+2074>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x0000555555558fef <+2079>:	cmp    r12,0xff
+   0x0000555555558ff6 <+2086>:	je     0x555555559d52 <_ZN6binary4main17hf421c7ec894951b1E+5506>
+   0x0000555555558ffc <+2092>:	movzx  ebp,BYTE PTR [r9+r15*1-0x5]
+   0x0000555555559002 <+2098>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x0000555555559006 <+2102>:	cmp    rbx,0xff
+   0x000055555555900d <+2109>:	je     0x555555559d5b <_ZN6binary4main17hf421c7ec894951b1E+5515>
+   0x0000555555559013 <+2115>:	movzx  ebp,BYTE PTR [r9+r15*1-0x4]
+   0x0000555555559019 <+2121>:	movzx  r13d,BYTE PTR [rax+rbp*1]
+   0x000055555555901e <+2126>:	cmp    r13,0xff
+   0x0000555555559025 <+2133>:	je     0x555555559d64 <_ZN6binary4main17hf421c7ec894951b1E+5524>
+   0x000055555555902b <+2139>:	movzx  ebp,BYTE PTR [r9+r15*1-0x3]
+   0x0000555555559031 <+2145>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x0000555555559035 <+2149>:	cmp    rcx,0xff
+   0x000055555555903c <+2156>:	je     0x555555559d6d <_ZN6binary4main17hf421c7ec894951b1E+5533>
+   0x0000555555559042 <+2162>:	movzx  ebp,BYTE PTR [r9+r15*1-0x2]
+   0x0000555555559048 <+2168>:	movzx  edx,BYTE PTR [rax+rbp*1]
+   0x000055555555904c <+2172>:	cmp    rdx,0xff
+   0x0000555555559053 <+2179>:	je     0x555555559d76 <_ZN6binary4main17hf421c7ec894951b1E+5542>
+   0x0000555555559059 <+2185>:	movzx  ebp,BYTE PTR [r9+r15*1-0x1]
+   0x000055555555905f <+2191>:	movzx  esi,BYTE PTR [rax+rbp*1]
+   0x0000555555559063 <+2195>:	cmp    rsi,0xff
+   0x000055555555906a <+2202>:	je     0x555555559d7f <_ZN6binary4main17hf421c7ec894951b1E+5551>
+   0x0000555555559070 <+2208>:	shl    r11,0x34
+   0x0000555555559074 <+2212>:	shl    r14,0x3a
+   0x0000555555559078 <+2216>:	or     r14,r11
+   0x000055555555907b <+2219>:	shl    r12,0x2e
+   0x000055555555907f <+2223>:	shl    rbx,0x28
+   0x0000555555559083 <+2227>:	or     rbx,r12
+   0x0000555555559086 <+2230>:	or     rbx,r14
+   0x0000555555559089 <+2233>:	shl    r13,0x22
+   0x000055555555908d <+2237>:	shl    rcx,0x1c
+   0x0000555555559091 <+2241>:	or     rcx,r13
+   0x0000555555559094 <+2244>:	shl    rdx,0x16
+   0x0000555555559098 <+2248>:	or     rdx,rcx
+   0x000055555555909b <+2251>:	or     rdx,rbx
+   0x000055555555909e <+2254>:	shl    rsi,0x10
+   0x00005555555590a2 <+2258>:	or     rsi,rdx
+   0x00005555555590a5 <+2261>:	bswap  rsi
+   0x00005555555590a8 <+2264>:	mov    rcx,QWORD PTR [rsp+0x60]
+   0x00005555555590ad <+2269>:	mov    QWORD PTR [rcx+rdi*1+0x6],rsi
+   0x00005555555590b2 <+2274>:	movzx  ebp,BYTE PTR [r9+r15*1]
+   0x00005555555590b7 <+2279>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x00005555555590bc <+2284>:	cmp    r14,0xff
+   0x00005555555590c3 <+2291>:	je     0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x00005555555590c9 <+2297>:	movzx  ebp,BYTE PTR [r9+r15*1+0x1]
+   0x00005555555590cf <+2303>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x00005555555590d4 <+2308>:	cmp    r11,0xff
+   0x00005555555590db <+2315>:	je     0x555555559e25 <_ZN6binary4main17hf421c7ec894951b1E+5717>
+   0x00005555555590e1 <+2321>:	movzx  ebp,BYTE PTR [r9+r15*1+0x2]
+   0x00005555555590e7 <+2327>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x00005555555590ec <+2332>:	cmp    r12,0xff
+   0x00005555555590f3 <+2339>:	je     0x555555559e2d <_ZN6binary4main17hf421c7ec894951b1E+5725>
+   0x00005555555590f9 <+2345>:	movzx  ebp,BYTE PTR [r9+r15*1+0x3]
+   0x00005555555590ff <+2351>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x0000555555559103 <+2355>:	cmp    rbx,0xff
+   0x000055555555910a <+2362>:	je     0x555555559e36 <_ZN6binary4main17hf421c7ec894951b1E+5734>
+   0x0000555555559110 <+2368>:	movzx  ebp,BYTE PTR [r9+r15*1+0x4]
+   0x0000555555559116 <+2374>:	movzx  r13d,BYTE PTR [rax+rbp*1]
+   0x000055555555911b <+2379>:	cmp    r13,0xff
+   0x0000555555559122 <+2386>:	je     0x555555559e3f <_ZN6binary4main17hf421c7ec894951b1E+5743>
+   0x0000555555559128 <+2392>:	movzx  ebp,BYTE PTR [r9+r15*1+0x5]
+   0x000055555555912e <+2398>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x0000555555559132 <+2402>:	cmp    rcx,0xff
+   0x0000555555559139 <+2409>:	je     0x555555559e48 <_ZN6binary4main17hf421c7ec894951b1E+5752>
+   0x000055555555913f <+2415>:	movzx  ebp,BYTE PTR [r9+r15*1+0x6]
+   0x0000555555559145 <+2421>:	movzx  edx,BYTE PTR [rax+rbp*1]
+   0x0000555555559149 <+2425>:	cmp    rdx,0xff
+   0x0000555555559150 <+2432>:	je     0x555555559e51 <_ZN6binary4main17hf421c7ec894951b1E+5761>
+   0x0000555555559156 <+2438>:	movzx  ebp,BYTE PTR [r9+r15*1+0x7]
+   0x000055555555915c <+2444>:	movzx  esi,BYTE PTR [rax+rbp*1]
+   0x0000555555559160 <+2448>:	cmp    rsi,0xff
+   0x0000555555559167 <+2455>:	je     0x555555559e5a <_ZN6binary4main17hf421c7ec894951b1E+5770>
+   0x000055555555916d <+2461>:	shl    r11,0x34
+   0x0000555555559171 <+2465>:	shl    r14,0x3a
+   0x0000555555559175 <+2469>:	or     r14,r11
+   0x0000555555559178 <+2472>:	shl    r12,0x2e
+   0x000055555555917c <+2476>:	shl    rbx,0x28
+   0x0000555555559180 <+2480>:	or     rbx,r12
+   0x0000555555559183 <+2483>:	or     rbx,r14
+   0x0000555555559186 <+2486>:	shl    r13,0x22
+   0x000055555555918a <+2490>:	shl    rcx,0x1c
+   0x000055555555918e <+2494>:	or     rcx,r13
+   0x0000555555559191 <+2497>:	shl    rdx,0x16
+   0x0000555555559195 <+2501>:	or     rdx,rcx
+   0x0000555555559198 <+2504>:	or     rdx,rbx
+   0x000055555555919b <+2507>:	shl    rsi,0x10
+   0x000055555555919f <+2511>:	or     rsi,rdx
+   0x00005555555591a2 <+2514>:	bswap  rsi
+   0x00005555555591a5 <+2517>:	mov    rcx,QWORD PTR [rsp+0x60]
+   0x00005555555591aa <+2522>:	mov    QWORD PTR [rcx+rdi*1+0xc],rsi
+   0x00005555555591af <+2527>:	movzx  ebp,BYTE PTR [r9+r15*1+0x8]
+   0x00005555555591b5 <+2533>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x00005555555591ba <+2538>:	cmp    r14,0xff
+   0x00005555555591c1 <+2545>:	mov    rsi,r9
+   0x00005555555591c4 <+2548>:	je     0x555555559e63 <_ZN6binary4main17hf421c7ec894951b1E+5779>
+   0x00005555555591ca <+2554>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x9]
+   0x00005555555591d0 <+2560>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x00005555555591d5 <+2565>:	cmp    r11,0xff
+   0x00005555555591dc <+2572>:	mov    r9,QWORD PTR [rsp+0x98]
+   0x00005555555591e4 <+2580>:	je     0x555555559e6c <_ZN6binary4main17hf421c7ec894951b1E+5788>
+   0x00005555555591ea <+2586>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xa]
+   0x00005555555591f0 <+2592>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x00005555555591f5 <+2597>:	cmp    r12,0xff
+   0x00005555555591fc <+2604>:	je     0x555555559e75 <_ZN6binary4main17hf421c7ec894951b1E+5797>
+   0x0000555555559202 <+2610>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xb]
+   0x0000555555559208 <+2616>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x000055555555920c <+2620>:	cmp    rbx,0xff
+   0x0000555555559213 <+2627>:	je     0x555555559e7e <_ZN6binary4main17hf421c7ec894951b1E+5806>
+   0x0000555555559219 <+2633>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xc]
+   0x000055555555921f <+2639>:	movzx  r13d,BYTE PTR [rax+rbp*1]
+   0x0000555555559224 <+2644>:	cmp    r13,0xff
+   0x000055555555922b <+2651>:	je     0x555555559e87 <_ZN6binary4main17hf421c7ec894951b1E+5815>
+   0x0000555555559231 <+2657>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xd]
+   0x0000555555559237 <+2663>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x000055555555923b <+2667>:	cmp    rcx,0xff
+   0x0000555555559242 <+2674>:	je     0x555555559e90 <_ZN6binary4main17hf421c7ec894951b1E+5824>
+   0x0000555555559248 <+2680>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xe]
+   0x000055555555924e <+2686>:	movzx  edx,BYTE PTR [rax+rbp*1]
+   0x0000555555559252 <+2690>:	cmp    rdx,0xff
+   0x0000555555559259 <+2697>:	je     0x555555559e99 <_ZN6binary4main17hf421c7ec894951b1E+5833>
+   0x000055555555925f <+2703>:	movzx  ebp,BYTE PTR [rsi+r15*1+0xf]
+   0x0000555555559265 <+2709>:	movzx  esi,BYTE PTR [rax+rbp*1]
+   0x0000555555559269 <+2713>:	cmp    rsi,0xff
+   0x0000555555559270 <+2720>:	je     0x555555559ea2 <_ZN6binary4main17hf421c7ec894951b1E+5842>
+   0x0000555555559276 <+2726>:	shl    r11,0x34
+   0x000055555555927a <+2730>:	shl    r14,0x3a
+   0x000055555555927e <+2734>:	or     r14,r11
+   0x0000555555559281 <+2737>:	shl    r12,0x2e
+   0x0000555555559285 <+2741>:	shl    rbx,0x28
+   0x0000555555559289 <+2745>:	or     rbx,r12
+   0x000055555555928c <+2748>:	or     rbx,r14
+   0x000055555555928f <+2751>:	shl    r13,0x22
+   0x0000555555559293 <+2755>:	shl    rcx,0x1c
+   0x0000555555559297 <+2759>:	or     rcx,r13
+   0x000055555555929a <+2762>:	shl    rdx,0x16
+   0x000055555555929e <+2766>:	or     rdx,rcx
+   0x00005555555592a1 <+2769>:	or     rdx,rbx
+   0x00005555555592a4 <+2772>:	shl    rsi,0x10
+   0x00005555555592a8 <+2776>:	or     rsi,rdx
+   0x00005555555592ab <+2779>:	bswap  rsi
+   0x00005555555592ae <+2782>:	mov    r13,QWORD PTR [rsp+0x60]
+   0x00005555555592b3 <+2787>:	mov    QWORD PTR [r13+rdi*1+0x12],rsi
+   0x00005555555592b8 <+2792>:	add    rdi,0x18
+   0x00005555555592bc <+2796>:	add    QWORD PTR [rsp+0xd8],0xfffffffffffffffc
+   0x00005555555592c5 <+2805>:	add    r15,0x20
+   0x00005555555592c9 <+2809>:	cmp    r10,r8
+   0x00005555555592cc <+2812>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x00005555555592d1 <+2817>:	mov    rbx,QWORD PTR [rsp+0x110]
+   0x00005555555592d9 <+2825>:	jbe    0x555555558e90 <_ZN6binary4main17hf421c7ec894951b1E+1728>
+   0x00005555555592df <+2831>:	add    r15,0xfffffffffffffff0
+   0x00005555555592e3 <+2835>:	mov    rdx,QWORD PTR [rsp+0xd0]
+   0x00005555555592eb <+2843>:	sub    rdx,0x8
+   0x00005555555592ef <+2847>:	jb     0x555555559463 <_ZN6binary4main17hf421c7ec894951b1E+3219>
+   0x00005555555592f5 <+2853>:	cmp    r15,rdx
+   0x00005555555592f8 <+2856>:	jae    0x555555559463 <_ZN6binary4main17hf421c7ec894951b1E+3219>
+   0x00005555555592fe <+2862>:	xchg   ax,ax
+   0x0000555555559300 <+2864>:	cmp    r15,0xfffffffffffffff8
+   0x0000555555559304 <+2868>:	je     0x555555559f5c <_ZN6binary4main17hf421c7ec894951b1E+6028>
+   0x000055555555930a <+2874>:	lea    rbp,[r15+0x8]
+   0x000055555555930e <+2878>:	cmp    rbp,rbx
+   0x0000555555559311 <+2881>:	ja     0x555555559f6f <_ZN6binary4main17hf421c7ec894951b1E+6047>
+   0x0000555555559317 <+2887>:	lea    rcx,[rdi+0x8]
+   0x000055555555931b <+2891>:	cmp    rdi,0xfffffffffffffff8
+   0x000055555555931f <+2895>:	jae    0x555555559f7e <_ZN6binary4main17hf421c7ec894951b1E+6062>
+   0x0000555555559325 <+2901>:	mov    QWORD PTR [rsp+0xd0],rbp
+   0x000055555555932d <+2909>:	cmp    rcx,r9
+   0x0000555555559330 <+2912>:	ja     0x555555559f86 <_ZN6binary4main17hf421c7ec894951b1E+6070>
+   0x0000555555559336 <+2918>:	mov    r8,rdx
+   0x0000555555559339 <+2921>:	movzx  ebp,BYTE PTR [rsi+r15*1]
+   0x000055555555933e <+2926>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x0000555555559343 <+2931>:	cmp    r14,0xff
+   0x000055555555934a <+2938>:	je     0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559350 <+2944>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x1]
+   0x0000555555559356 <+2950>:	movzx  r10d,BYTE PTR [rax+rbp*1]
+   0x000055555555935b <+2955>:	cmp    r10,0xff
+   0x0000555555559362 <+2962>:	je     0x555555559f91 <_ZN6binary4main17hf421c7ec894951b1E+6081>
+   0x0000555555559368 <+2968>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x2]
+   0x000055555555936e <+2974>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x0000555555559373 <+2979>:	cmp    r11,0xff
+   0x000055555555937a <+2986>:	je     0x555555559f97 <_ZN6binary4main17hf421c7ec894951b1E+6087>
+   0x0000555555559380 <+2992>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x3]
+   0x0000555555559386 <+2998>:	movzx  edx,BYTE PTR [rax+rbp*1]
+   0x000055555555938a <+3002>:	cmp    rdx,0xff
+   0x0000555555559391 <+3009>:	je     0x555555559f9d <_ZN6binary4main17hf421c7ec894951b1E+6093>
+   0x0000555555559397 <+3015>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x4]
+   0x000055555555939d <+3021>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x00005555555593a2 <+3026>:	cmp    r12,0xff
+   0x00005555555593a9 <+3033>:	je     0x555555559fa3 <_ZN6binary4main17hf421c7ec894951b1E+6099>
+   0x00005555555593af <+3039>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x5]
+   0x00005555555593b5 <+3045>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x00005555555593b9 <+3049>:	cmp    rbx,0xff
+   0x00005555555593c0 <+3056>:	je     0x555555559fa9 <_ZN6binary4main17hf421c7ec894951b1E+6105>
+   0x00005555555593c6 <+3062>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x6]
+   0x00005555555593cc <+3068>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x00005555555593d0 <+3072>:	cmp    rcx,0xff
+   0x00005555555593d7 <+3079>:	je     0x555555559faf <_ZN6binary4main17hf421c7ec894951b1E+6111>
+   0x00005555555593dd <+3085>:	movzx  ebp,BYTE PTR [rsi+r15*1+0x7]
+   0x00005555555593e3 <+3091>:	movzx  esi,BYTE PTR [rax+rbp*1]
+   0x00005555555593e7 <+3095>:	cmp    rsi,0xff
+   0x00005555555593ee <+3102>:	je     0x555555559fb5 <_ZN6binary4main17hf421c7ec894951b1E+6117>
+   0x00005555555593f4 <+3108>:	shl    r10,0x34
+   0x00005555555593f8 <+3112>:	shl    r14,0x3a
+   0x00005555555593fc <+3116>:	or     r14,r10
+   0x00005555555593ff <+3119>:	shl    r11,0x2e
+   0x0000555555559403 <+3123>:	shl    rdx,0x28
+   0x0000555555559407 <+3127>:	or     rdx,r11
+   0x000055555555940a <+3130>:	or     rdx,r14
+   0x000055555555940d <+3133>:	shl    r12,0x22
+   0x0000555555559411 <+3137>:	shl    rbx,0x1c
+   0x0000555555559415 <+3141>:	or     rbx,r12
+   0x0000555555559418 <+3144>:	shl    rcx,0x16
+   0x000055555555941c <+3148>:	or     rcx,rbx
+   0x000055555555941f <+3151>:	or     rcx,rdx
+   0x0000555555559422 <+3154>:	shl    rsi,0x10
+   0x0000555555559426 <+3158>:	or     rsi,rcx
+   0x0000555555559429 <+3161>:	bswap  rsi
+   0x000055555555942c <+3164>:	mov    QWORD PTR [r13+rdi*1+0x0],rsi
+   0x0000555555559431 <+3169>:	add    rdi,0x6
+   0x0000555555559435 <+3173>:	dec    QWORD PTR [rsp+0xd8]
+   0x000055555555943d <+3181>:	mov    rdx,r8
+   0x0000555555559440 <+3184>:	mov    r8,QWORD PTR [rsp+0xd0]
+   0x0000555555559448 <+3192>:	cmp    r8,rdx
+   0x000055555555944b <+3195>:	mov    r15,r8
+   0x000055555555944e <+3198>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x0000555555559453 <+3203>:	mov    rbx,QWORD PTR [rsp+0x110]
+   0x000055555555945b <+3211>:	jb     0x555555559300 <_ZN6binary4main17hf421c7ec894951b1E+2864>
+   0x0000555555559461 <+3217>:	jmp    0x555555559466 <_ZN6binary4main17hf421c7ec894951b1E+3222>
+   0x0000555555559463 <+3219>:	mov    r8,r15
+   0x0000555555559466 <+3222>:	cmp    QWORD PTR [rsp+0xd8],0x2
+   0x000055555555946f <+3231>:	jb     0x555555559688 <_ZN6binary4main17hf421c7ec894951b1E+3768>
+   0x0000555555559475 <+3237>:	mov    rdx,rbx
+   0x0000555555559478 <+3240>:	sub    rdx,r8
+   0x000055555555947b <+3243>:	add    r8,0x7
+   0x000055555555947f <+3247>:	mov    rcx,rbx
+   0x0000555555559482 <+3250>:	neg    rcx
+   0x0000555555559485 <+3253>:	mov    QWORD PTR [rsp+0xd0],rcx
+   0x000055555555948d <+3261>:	mov    r10d,0x1
+   0x0000555555559493 <+3267>:	mov    r15,r8
+   0x0000555555559496 <+3270>:	nop    WORD PTR cs:[rax+rax*1+0x0]
+   0x00005555555594a0 <+3280>:	lea    rcx,[r15-0x7]
+   0x00005555555594a4 <+3284>:	cmp    rbx,rcx
+   0x00005555555594a7 <+3287>:	jb     0x555555559eab <_ZN6binary4main17hf421c7ec894951b1E+5851>
+   0x00005555555594ad <+3293>:	lea    rsi,[rdi+0x6]
+   0x00005555555594b1 <+3297>:	cmp    rdi,0xfffffffffffffffa
+   0x00005555555594b5 <+3301>:	jae    0x555555559eba <_ZN6binary4main17hf421c7ec894951b1E+5866>
+   0x00005555555594bb <+3307>:	cmp    rsi,r9
+   0x00005555555594be <+3310>:	ja     0x555555559ebf <_ZN6binary4main17hf421c7ec894951b1E+5871>
+   0x00005555555594c4 <+3316>:	mov    rbp,QWORD PTR [rsp+0xd0]
+   0x00005555555594cc <+3324>:	lea    rbp,[rbp+r15*1+0x0]
+   0x00005555555594d1 <+3329>:	cmp    rbp,0x7
+   0x00005555555594d5 <+3333>:	je     0x555555559ecb <_ZN6binary4main17hf421c7ec894951b1E+5883>
+   0x00005555555594db <+3339>:	mov    rbp,QWORD PTR [rsp+0x38]
+   0x00005555555594e0 <+3344>:	movzx  ebp,BYTE PTR [rbp+r15*1-0x7]
+   0x00005555555594e6 <+3350>:	movzx  r8d,BYTE PTR [rax+rbp*1]
+   0x00005555555594eb <+3355>:	cmp    r8,0xff
+   0x00005555555594f2 <+3362>:	je     0x555555559edb <_ZN6binary4main17hf421c7ec894951b1E+5899>
+   0x00005555555594f8 <+3368>:	cmp    rdx,0x2
+   0x00005555555594fc <+3372>:	jb     0x555555559ee5 <_ZN6binary4main17hf421c7ec894951b1E+5909>
+   0x0000555555559502 <+3378>:	mov    rcx,QWORD PTR [rsp+0x38]
+   0x0000555555559507 <+3383>:	movzx  ebp,BYTE PTR [rcx+r15*1-0x6]
+   0x000055555555950d <+3389>:	movzx  r11d,BYTE PTR [rax+rbp*1]
+   0x0000555555559512 <+3394>:	cmp    r11,0xff
+   0x0000555555559519 <+3401>:	je     0x555555559d52 <_ZN6binary4main17hf421c7ec894951b1E+5506>
+   0x000055555555951f <+3407>:	cmp    rdx,0x3
+   0x0000555555559523 <+3411>:	jb     0x555555559ef6 <_ZN6binary4main17hf421c7ec894951b1E+5926>
+   0x0000555555559529 <+3417>:	mov    rcx,QWORD PTR [rsp+0x38]
+   0x000055555555952e <+3422>:	movzx  ebp,BYTE PTR [rcx+r15*1-0x5]
+   0x0000555555559534 <+3428>:	movzx  ebx,BYTE PTR [rax+rbp*1]
+   0x0000555555559538 <+3432>:	cmp    rbx,0xff
+   0x000055555555953f <+3439>:	je     0x555555559d5b <_ZN6binary4main17hf421c7ec894951b1E+5515>
+   0x0000555555559545 <+3445>:	cmp    rdx,0x4
+   0x0000555555559549 <+3449>:	jb     0x555555559f07 <_ZN6binary4main17hf421c7ec894951b1E+5943>
+   0x000055555555954f <+3455>:	mov    rcx,QWORD PTR [rsp+0x38]
+   0x0000555555559554 <+3460>:	movzx  ebp,BYTE PTR [rcx+r15*1-0x4]
+   0x000055555555955a <+3466>:	movzx  ecx,BYTE PTR [rax+rbp*1]
+   0x000055555555955e <+3470>:	cmp    rcx,0xff
+   0x0000555555559565 <+3477>:	je     0x555555559d64 <_ZN6binary4main17hf421c7ec894951b1E+5524>
+   0x000055555555956b <+3483>:	cmp    rdx,0x5
+   0x000055555555956f <+3487>:	jb     0x555555559f18 <_ZN6binary4main17hf421c7ec894951b1E+5960>
+   0x0000555555559575 <+3493>:	mov    rbp,QWORD PTR [rsp+0x38]
+   0x000055555555957a <+3498>:	movzx  ebp,BYTE PTR [rbp+r15*1-0x3]
+   0x0000555555559580 <+3504>:	movzx  r12d,BYTE PTR [rax+rbp*1]
+   0x0000555555559585 <+3509>:	cmp    r12,0xff
+   0x000055555555958c <+3516>:	je     0x555555559d6d <_ZN6binary4main17hf421c7ec894951b1E+5533>
+   0x0000555555559592 <+3522>:	cmp    rdx,0x6
+   0x0000555555559596 <+3526>:	jb     0x555555559f29 <_ZN6binary4main17hf421c7ec894951b1E+5977>
+   0x000055555555959c <+3532>:	mov    rbp,QWORD PTR [rsp+0x38]
+   0x00005555555595a1 <+3537>:	movzx  ebp,BYTE PTR [rbp+r15*1-0x2]
+   0x00005555555595a7 <+3543>:	movzx  r9d,BYTE PTR [rax+rbp*1]
+   0x00005555555595ac <+3548>:	cmp    r9,0xff
+   0x00005555555595b3 <+3555>:	je     0x555555559d76 <_ZN6binary4main17hf421c7ec894951b1E+5542>
+   0x00005555555595b9 <+3561>:	cmp    rdx,0x7
+   0x00005555555595bd <+3565>:	jb     0x555555559f3a <_ZN6binary4main17hf421c7ec894951b1E+5994>
+   0x00005555555595c3 <+3571>:	mov    rbp,QWORD PTR [rsp+0x38]
+   0x00005555555595c8 <+3576>:	movzx  ebp,BYTE PTR [rbp+r15*1-0x1]
+   0x00005555555595ce <+3582>:	movzx  r13d,BYTE PTR [rax+rbp*1]
+   0x00005555555595d3 <+3587>:	cmp    r13,0xff
+   0x00005555555595da <+3594>:	je     0x555555559d7f <_ZN6binary4main17hf421c7ec894951b1E+5551>
+   0x00005555555595e0 <+3600>:	cmp    rdx,0x8
+   0x00005555555595e4 <+3604>:	jb     0x555555559f4b <_ZN6binary4main17hf421c7ec894951b1E+6011>
+   0x00005555555595ea <+3610>:	mov    rbp,QWORD PTR [rsp+0x38]
+   0x00005555555595ef <+3615>:	movzx  ebp,BYTE PTR [rbp+r15*1+0x0]
+   0x00005555555595f5 <+3621>:	movzx  r14d,BYTE PTR [rax+rbp*1]
+   0x00005555555595fa <+3626>:	cmp    r14,0xff
+   0x0000555555559601 <+3633>:	je     0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559607 <+3639>:	inc    r10
+   0x000055555555960a <+3642>:	shl    r8,0x3a
+   0x000055555555960e <+3646>:	shl    r11,0x34
+   0x0000555555559612 <+3650>:	or     r11,r8
+   0x0000555555559615 <+3653>:	shl    rbx,0x2e
+   0x0000555555559619 <+3657>:	or     rbx,r11
+   0x000055555555961c <+3660>:	shl    rcx,0x28
+   0x0000555555559620 <+3664>:	or     rcx,rbx
+   0x0000555555559623 <+3667>:	shl    r12,0x22
+   0x0000555555559627 <+3671>:	or     r12,rcx
+   0x000055555555962a <+3674>:	shl    r9,0x1c
+   0x000055555555962e <+3678>:	or     r9,r12
+   0x0000555555559631 <+3681>:	shl    r13,0x16
+   0x0000555555559635 <+3685>:	or     r13,r9
+   0x0000555555559638 <+3688>:	shl    r14,0x10
+   0x000055555555963c <+3692>:	or     r14,r13
+   0x000055555555963f <+3695>:	bswap  r14
+   0x0000555555559642 <+3698>:	mov    r13,QWORD PTR [rsp+0x60]
+   0x0000555555559647 <+3703>:	mov    DWORD PTR [r13+rdi*1+0x0],r14d
+   0x000055555555964c <+3708>:	shr    r14,0x20
+   0x0000555555559650 <+3712>:	mov    WORD PTR [r13+rdi*1+0x4],r14w
+   0x0000555555559656 <+3718>:	add    r15,0x8
+   0x000055555555965a <+3722>:	add    rdx,0xfffffffffffffff8
+   0x000055555555965e <+3726>:	cmp    r10,QWORD PTR [rsp+0xd8]
+   0x0000555555559666 <+3734>:	mov    rdi,rsi
+   0x0000555555559669 <+3737>:	mov    r9,QWORD PTR [rsp+0x98]
+   0x0000555555559671 <+3745>:	mov    rbx,QWORD PTR [rsp+0x110]
+   0x0000555555559679 <+3753>:	jb     0x5555555594a0 <_ZN6binary4main17hf421c7ec894951b1E+3280>
+   0x000055555555967f <+3759>:	add    r15,0xfffffffffffffff9
+   0x0000555555559683 <+3763>:	mov    r8,r15
+   0x0000555555559686 <+3766>:	jmp    0x55555555968b <_ZN6binary4main17hf421c7ec894951b1E+3771>
+   0x0000555555559688 <+3768>:	mov    rsi,rdi
+   0x000055555555968b <+3771>:	mov    r9,rbx
+   0x000055555555968e <+3774>:	sub    r9,r8
+   0x0000555555559691 <+3777>:	jb     0x55555555a0e5 <_ZN6binary4main17hf421c7ec894951b1E+6421>
+   0x0000555555559697 <+3783>:	cmp    rbx,r8
+   0x000055555555969a <+3786>:	je     0x555555559761 <_ZN6binary4main17hf421c7ec894951b1E+3985>
+   0x00005555555596a0 <+3792>:	mov    r13,QWORD PTR [rsp+0x38]
+   0x00005555555596a5 <+3797>:	add    r13,r8
+   0x00005555555596a8 <+3800>:	add    r9,r13
+   0x00005555555596ab <+3803>:	neg    r9
+   0x00005555555596ae <+3806>:	xor    ebx,ebx
+   0x00005555555596b0 <+3808>:	xor    edx,edx
+   0x00005555555596b2 <+3810>:	xor    r10d,r10d
+   0x00005555555596b5 <+3813>:	xor    r11d,r11d
+   0x00005555555596b8 <+3816>:	xor    r12d,r12d
+   0x00005555555596bb <+3819>:	mov    edi,edx
+   0x00005555555596bd <+3821>:	lea    r14,[r13+r9*1+0x0]
+   0x00005555555596c2 <+3826>:	xor    ecx,ecx
+   0x00005555555596c4 <+3828>:	data16 data16 nop WORD PTR cs:[rax+rax*1+0x0]
+   0x00005555555596d0 <+3840>:	lea    rdx,[rdi+rcx*1]
+   0x00005555555596d4 <+3844>:	movzx  ebp,BYTE PTR [r13+rcx*1+0x0]
+   0x00005555555596da <+3850>:	cmp    rbp,0x3d
+   0x00005555555596de <+3854>:	jne    0x555555559710 <_ZN6binary4main17hf421c7ec894951b1E+3904>
+   0x00005555555596e0 <+3856>:	lea    r15,[r12+rcx*1]
+   0x00005555555596e4 <+3860>:	mov    ebp,r15d
+   0x00005555555596e7 <+3863>:	and    ebp,0x2
+   0x00005555555596ea <+3866>:	cmp    rbp,0x1
+   0x00005555555596ee <+3870>:	jbe    0x555555559d87 <_ZN6binary4main17hf421c7ec894951b1E+5559>
+   0x00005555555596f4 <+3876>:	test   edx,edx
+   0x00005555555596f6 <+3878>:	cmove  rbx,r15
+   0x00005555555596fa <+3882>:	inc    rcx
+   0x00005555555596fd <+3885>:	mov    rdx,r14
+   0x0000555555559700 <+3888>:	add    rdx,rcx
+   0x0000555555559703 <+3891>:	jne    0x5555555596d0 <_ZN6binary4main17hf421c7ec894951b1E+3840>
+   0x0000555555559705 <+3893>:	jmp    0x555555559751 <_ZN6binary4main17hf421c7ec894951b1E+3969>
+   0x0000555555559707 <+3895>:	nop    WORD PTR [rax+rax*1+0x0]
+   0x0000555555559710 <+3904>:	test   edx,edx
+   0x0000555555559712 <+3906>:	jg     0x55555555a11f <_ZN6binary4main17hf421c7ec894951b1E+6479>
+   0x0000555555559718 <+3912>:	movzx  edi,BYTE PTR [rax+rbp*1]
+   0x000055555555971c <+3916>:	cmp    rdi,0xff
+   0x0000555555559723 <+3923>:	je     0x55555555a12f <_ZN6binary4main17hf421c7ec894951b1E+6495>
+   0x0000555555559729 <+3929>:	lea    r12,[r12+rcx*1+0x1]
+   0x000055555555972e <+3934>:	lea    r13,[r13+rcx*1+0x1]
+   0x0000555555559733 <+3939>:	lea    rbp,[rcx+r14*1+0x1]
+   0x0000555555559738 <+3944>:	inc    r10d
+   0x000055555555973b <+3947>:	imul   ecx,r10d,0xfffffffa
+   0x000055555555973f <+3951>:	and    cl,0x3e
+   0x0000555555559742 <+3954>:	shl    rdi,cl
+   0x0000555555559745 <+3957>:	or     r11,rdi
+   0x0000555555559748 <+3960>:	test   rbp,rbp
+   0x000055555555974b <+3963>:	jne    0x5555555596bb <_ZN6binary4main17hf421c7ec894951b1E+3819>
+   0x0000555555559751 <+3969>:	cmp    r10d,0x9
+   0x0000555555559755 <+3973>:	mov    r13,QWORD PTR [rsp+0x60]
+   0x000055555555975a <+3978>:	jb     0x555555559767 <_ZN6binary4main17hf421c7ec894951b1E+3991>
+   0x000055555555975c <+3980>:	jmp    0x55555555a016 <_ZN6binary4main17hf421c7ec894951b1E+6214>
+   0x0000555555559761 <+3985>:	xor    r10d,r10d
+   0x0000555555559764 <+3988>:	xor    r11d,r11d
+   0x0000555555559767 <+3991>:	mov    eax,0x1dd
+   0x000055555555976c <+3996>:	bt     eax,r10d
+   0x0000555555559770 <+4000>:	jae    0x55555555a016 <_ZN6binary4main17hf421c7ec894951b1E+6214>
+   0x0000555555559776 <+4006>:	mov    eax,0x1dc
+   0x000055555555977b <+4011>:	bt     rax,r10
+   0x000055555555977f <+4015>:	mov    rdx,QWORD PTR [rsp+0x98]
+   0x0000555555559787 <+4023>:	jae    0x5555555597c6 <_ZN6binary4main17hf421c7ec894951b1E+4086>
+   0x0000555555559789 <+4025>:	movsxd rax,r10d
+   0x000055555555978c <+4028>:	lea    rcx,[rip+0x1e6ad]        # 0x555555577e40
+   0x0000555555559793 <+4035>:	mov    eax,DWORD PTR [rcx+rax*4]
+   0x0000555555559796 <+4038>:	xor    ebx,ebx
+   0x0000555555559798 <+4040>:	mov    edi,0x38
+   0x000055555555979d <+4045>:	nop    DWORD PTR [rax]
+   0x00005555555597a0 <+4048>:	cmp    rsi,rdx
+   0x00005555555597a3 <+4051>:	jae    0x555555559d9a <_ZN6binary4main17hf421c7ec894951b1E+5578>
+   0x00005555555597a9 <+4057>:	mov    ecx,edi
+   0x00005555555597ab <+4059>:	and    cl,0x38
+   0x00005555555597ae <+4062>:	mov    rbp,r11
+   0x00005555555597b1 <+4065>:	shr    rbp,cl
+   0x00005555555597b4 <+4068>:	mov    BYTE PTR [r13+rsi*1+0x0],bpl
+   0x00005555555597b9 <+4073>:	inc    rsi
+   0x00005555555597bc <+4076>:	add    ebx,0x8
+   0x00005555555597bf <+4079>:	add    edi,0xfffffff8
+   0x00005555555597c2 <+4082>:	cmp    ebx,eax
+   0x00005555555597c4 <+4084>:	jl     0x5555555597a0 <_ZN6binary4main17hf421c7ec894951b1E+4048>
+   0x00005555555597c6 <+4086>:	mov    rbp,QWORD PTR [rsp+0x50]
+   0x00005555555597cb <+4091>:	cmp    rbp,rsi
+   0x00005555555597ce <+4094>:	jbe    0x5555555597d8 <_ZN6binary4main17hf421c7ec894951b1E+4104>
+   0x00005555555597d0 <+4096>:	mov    QWORD PTR [rsp+0x50],rsi
+   0x00005555555597d5 <+4101>:	mov    rbp,rsi
+   0x00005555555597d8 <+4104>:	cmp    BYTE PTR [rsp+0x6c],0x0
+   0x00005555555597dd <+4109>:	je     0x5555555597f8 <_ZN6binary4main17hf421c7ec894951b1E+4136>
+   0x00005555555597df <+4111>:	mov    rsi,QWORD PTR [rsp+0x78]
+   0x00005555555597e4 <+4116>:	test   rsi,rsi
+   0x00005555555597e7 <+4119>:	je     0x5555555597f8 <_ZN6binary4main17hf421c7ec894951b1E+4136>
+   0x00005555555597e9 <+4121>:	mov    edx,0x1
+   0x00005555555597ee <+4126>:	mov    rdi,QWORD PTR [rsp+0x38]
+   0x00005555555597f3 <+4131>:	call   0x55555555a270 <__rust_dealloc>
+   0x00005555555597f8 <+4136>:	movdqa xmm0,XMMWORD PTR [rsp+0x40]
+   0x00005555555597fe <+4142>:	mov    QWORD PTR [rsp+0x50],rbp
+   0x0000555555559803 <+4147>:	movq   rsi,xmm0
+   0x0000555555559808 <+4152>:	lea    rbx,[rsp+0x70]
+   0x000055555555980d <+4157>:	mov    rdi,rbx
+   0x0000555555559810 <+4160>:	mov    rdx,rbp
+   0x0000555555559813 <+4163>:	call   0x555555573350 <_ZN4core3str9from_utf817hff586f7dcc299f58E>
+   0x0000555555559818 <+4168>:	cmp    QWORD PTR [rsp+0x70],0x0
+   0x000055555555981e <+4174>:	lea    rdx,[rsp+0x40]
+   0x0000555555559823 <+4179>:	je     0x555555559879 <_ZN6binary4main17hf421c7ec894951b1E+4265>
+   0x0000555555559825 <+4181>:	movups xmm0,XMMWORD PTR [rsp+0x78]
+   0x000055555555982a <+4186>:	movaps XMMWORD PTR [rsp+0x140],xmm0
+   0x0000555555559832 <+4194>:	mov    rax,QWORD PTR [rsp+0x50]
+   0x0000555555559837 <+4199>:	mov    QWORD PTR [rsp+0x10],rax
+   0x000055555555983c <+4204>:	movaps xmm0,XMMWORD PTR [rsp+0x40]
+   0x0000555555559841 <+4209>:	movaps XMMWORD PTR [rsp],xmm0
+   0x0000555555559845 <+4213>:	movups xmm0,XMMWORD PTR [rsp+0x78]
+   0x000055555555984a <+4218>:	movups XMMWORD PTR [rsp+0x18],xmm0
+   0x000055555555984f <+4223>:	mov    rax,QWORD PTR [rsp+0x20]
+   0x0000555555559854 <+4228>:	mov    QWORD PTR [rsp+0x100],rax
+   0x000055555555985c <+4236>:	movaps xmm0,XMMWORD PTR [rsp]
+   0x0000555555559860 <+4240>:	movaps xmm1,XMMWORD PTR [rsp+0x10]
+   0x0000555555559865 <+4245>:	movaps XMMWORD PTR [rsp+0xf0],xmm1
+   0x000055555555986d <+4253>:	movaps XMMWORD PTR [rsp+0xe0],xmm0
+   0x0000555555559875 <+4261>:	xor    ecx,ecx
+   0x0000555555559877 <+4263>:	jmp    0x555555559895 <_ZN6binary4main17hf421c7ec894951b1E+4293>
+   0x0000555555559879 <+4265>:	mov    rax,QWORD PTR [rsp+0x50]
+   0x000055555555987e <+4270>:	mov    QWORD PTR [rsp+0xf0],rax
+   0x0000555555559886 <+4278>:	movaps xmm0,XMMWORD PTR [rsp+0x40]
+   0x000055555555988b <+4283>:	movaps XMMWORD PTR [rsp+0xe0],xmm0
+   0x0000555555559893 <+4291>:	mov    cl,0x1
+   0x0000555555559895 <+4293>:	mov    rax,QWORD PTR [rsp+0x100]
+   0x000055555555989d <+4301>:	mov    QWORD PTR [rsp+0x90],rax
+   0x00005555555598a5 <+4309>:	movaps xmm0,XMMWORD PTR [rsp+0xe0]
+   0x00005555555598ad <+4317>:	movdqa xmm1,XMMWORD PTR [rsp+0xf0]
+   0x00005555555598b6 <+4326>:	movdqa XMMWORD PTR [rsp+0x80],xmm1
+   0x00005555555598bf <+4335>:	movaps XMMWORD PTR [rsp+0x70],xmm0
+   0x00005555555598c4 <+4340>:	test   cl,cl
+   0x00005555555598c6 <+4342>:	je     0x55555555a0f0 <_ZN6binary4main17hf421c7ec894951b1E+6432>
+   0x00005555555598cc <+4348>:	mov    rax,QWORD PTR [rsp+0x80]
+   0x00005555555598d4 <+4356>:	mov    QWORD PTR [rsp+0x50],rax
+   0x00005555555598d9 <+4361>:	movdqa xmm0,XMMWORD PTR [rsp+0x70]
+   0x00005555555598df <+4367>:	movdqa XMMWORD PTR [rsp+0x40],xmm0
+   0x00005555555598e5 <+4373>:	mov    QWORD PTR [rsp+0x70],rdx
+   0x00005555555598ea <+4378>:	lea    rax,[rip+0xffffffffffffee9f]        # 0x555555558790 <_ZN60_$LT$alloc..string..String$u20$as$u20$core..fmt..Display$GT$3fmt17hdafee51ac588e3beE>
+   0x00005555555598f1 <+4385>:	mov    QWORD PTR [rsp+0x78],rax
+   0x00005555555598f6 <+4390>:	lea    rax,[rip+0x22b5c3]        # 0x555555784ec0 <ref.1O>
+   0x00005555555598fd <+4397>:	mov    QWORD PTR [rsp],rax
+   0x0000555555559901 <+4401>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x000055555555990a <+4410>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555559913 <+4419>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x0000555555559918 <+4424>:	mov    QWORD PTR [rsp+0x28],0x1
+   0x0000555555559921 <+4433>:	lea    rdi,[rsp+0x140]
+   0x0000555555559929 <+4441>:	mov    rsi,rsp
+   0x000055555555992c <+4444>:	call   0x555555571780 <_ZN5alloc3fmt6format17h74c5f89095a65e97E>
+   0x0000555555559931 <+4449>:	mov    rsi,QWORD PTR [rsp+0x48]
+   0x0000555555559936 <+4454>:	test   rsi,rsi
+   0x0000555555559939 <+4457>:	je     0x55555555994a <_ZN6binary4main17hf421c7ec894951b1E+4474>
+   0x000055555555993b <+4459>:	mov    rdi,QWORD PTR [rsp+0x40]
+   0x0000555555559940 <+4464>:	mov    edx,0x1
+   0x0000555555559945 <+4469>:	call   0x55555555a270 <__rust_dealloc>
+   0x000055555555994a <+4474>:	mov    rsi,QWORD PTR [rsp+0x128]
+   0x0000555555559952 <+4482>:	test   rsi,rsi
+   0x0000555555559955 <+4485>:	je     0x555555559969 <_ZN6binary4main17hf421c7ec894951b1E+4505>
+   0x0000555555559957 <+4487>:	mov    rdi,QWORD PTR [rsp+0x120]
+   0x000055555555995f <+4495>:	mov    edx,0x1
+   0x0000555555559964 <+4500>:	call   0x55555555a270 <__rust_dealloc>
+   0x0000555555559969 <+4505>:	mov    rsi,QWORD PTR [rsp+0x168]
+   0x0000555555559971 <+4513>:	test   rsi,rsi
+   0x0000555555559974 <+4516>:	je     0x55555555998c <_ZN6binary4main17hf421c7ec894951b1E+4540>
+   0x0000555555559976 <+4518>:	mov    rdi,QWORD PTR [rsp+0x160]
+   0x000055555555997e <+4526>:	shl    rsi,0x2
+   0x0000555555559982 <+4530>:	mov    edx,0x4
+   0x0000555555559987 <+4535>:	call   0x55555555a270 <__rust_dealloc>
+   0x000055555555998c <+4540>:	mov    rax,QWORD PTR [rsp+0x140]
+   0x0000555555559994 <+4548>:	mov    QWORD PTR [rsp+0xa0],rax
+   0x000055555555999c <+4556>:	mov    QWORD PTR [rsp+0xa8],0xc
+   0x00005555555599a8 <+4568>:	lea    rax,[rsp+0xa0]
+   0x00005555555599b0 <+4576>:	mov    QWORD PTR [rsp+0x70],rax
+   0x00005555555599b5 <+4581>:	lea    rax,[rip+0xffffffffffffedb4]        # 0x555555558770 <_ZN55_$LT$$RF$$u27$a$u20$T$u20$as$u20$core..fmt..Display$GT$3fmt17h5a42737e80ae02e7E>
+   0x00005555555599bc <+4588>:	mov    QWORD PTR [rsp+0x78],rax
+   0x00005555555599c1 <+4593>:	lea    rax,[rip+0x22b508]        # 0x555555784ed0 <ref.1P>
+   0x00005555555599c8 <+4600>:	mov    QWORD PTR [rsp],rax
+   0x00005555555599cc <+4604>:	mov    QWORD PTR [rsp+0x8],0x2
+   0x00005555555599d5 <+4613>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x00005555555599de <+4622>:	mov    QWORD PTR [rsp+0x20],rbx
+   0x00005555555599e3 <+4627>:	mov    QWORD PTR [rsp+0x28],0x1
+   0x00005555555599ec <+4636>:	mov    rdi,rsp
+   0x00005555555599ef <+4639>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x00005555555599f4 <+4644>:	mov    r13,rsp
+   0x00005555555599f7 <+4647>:	lea    r15,[rsp+0x118]
+   0x00005555555599ff <+4655>:	movabs r14,0x8421084210842109
+   0x0000555555559a09 <+4665>:	lea    r12,[rip+0x1e1db]        # 0x555555577beb <byte_str.1t>
+   0x0000555555559a10 <+4672>:	mov    QWORD PTR [rsp],0x1
+   0x0000555555559a18 <+4680>:	lea    rax,[rsp+0x8]
+   0x0000555555559a1d <+4685>:	pxor   xmm0,xmm0
+   0x0000555555559a21 <+4689>:	movdqu XMMWORD PTR [rax],xmm0
+   0x0000555555559a25 <+4693>:	xor    esi,esi
+   0x0000555555559a27 <+4695>:	mov    rdi,r13
+   0x0000555555559a2a <+4698>:	call   0x555555558360 <_ZN33_$LT$alloc..vec..Vec$LT$T$GT$$GT$7reserve17hff3cdc1123f50b03E>
+   0x0000555555559a2f <+4703>:	mov    ebp,0x10
+   0x0000555555559a34 <+4708>:	data16 data16 nop WORD PTR cs:[rax+rax*1+0x0]
+   0x0000555555559a40 <+4720>:	mov    rdi,r15
+   0x0000555555559a43 <+4723>:	call   0x55555555d060 <_ZN45_$LT$rand..ThreadRng$u20$as$u20$rand..Rng$GT$8next_u6417h787408e0787d47d2E>
+   0x0000555555559a48 <+4728>:	mov    rbx,rax
+   0x0000555555559a4b <+4731>:	cmp    rbx,0xffffffffffffffef
+   0x0000555555559a4f <+4735>:	ja     0x555555559a40 <_ZN6binary4main17hf421c7ec894951b1E+4720>
+   0x0000555555559a51 <+4737>:	mov    rax,rbx
+   0x0000555555559a54 <+4740>:	shr    rax,1
+   0x0000555555559a57 <+4743>:	mul    r14
+   0x0000555555559a5a <+4746>:	shr    rdx,0x4
+   0x0000555555559a5e <+4750>:	imul   rax,rdx,0x3e
+   0x0000555555559a62 <+4754>:	sub    rbx,rax
+   0x0000555555559a65 <+4757>:	add    rbx,r12
+   0x0000555555559a68 <+4760>:	je     0x555555559cfb <_ZN6binary4main17hf421c7ec894951b1E+5419>
+   0x0000555555559a6e <+4766>:	mov    rax,QWORD PTR [rsp+0x10]
+   0x0000555555559a73 <+4771>:	cmp    rax,QWORD PTR [rsp+0x8]
+   0x0000555555559a78 <+4776>:	jne    0x555555559a87 <_ZN6binary4main17hf421c7ec894951b1E+4791>
+   0x0000555555559a7a <+4778>:	mov    rdi,r13
+   0x0000555555559a7d <+4781>:	call   0x5555555584b0 <_ZN49_$LT$alloc..raw_vec..RawVec$LT$T$C$$u20$A$GT$$GT$6double17hee187990fa44ae01E>
+   0x0000555555559a82 <+4786>:	mov    rax,QWORD PTR [rsp+0x10]
+   0x0000555555559a87 <+4791>:	dec    rbp
+   0x0000555555559a8a <+4794>:	movzx  ecx,BYTE PTR [rbx]
+   0x0000555555559a8d <+4797>:	mov    rdx,QWORD PTR [rsp]
+   0x0000555555559a91 <+4801>:	mov    BYTE PTR [rdx+rax*1],cl
+   0x0000555555559a94 <+4804>:	inc    rax
+   0x0000555555559a97 <+4807>:	mov    QWORD PTR [rsp+0x10],rax
+   0x0000555555559a9c <+4812>:	test   rbp,rbp
+   0x0000555555559a9f <+4815>:	jne    0x555555559a40 <_ZN6binary4main17hf421c7ec894951b1E+4720>
+   0x0000555555559aa1 <+4817>:	mov    rax,QWORD PTR [rsp+0x10]
+   0x0000555555559aa6 <+4822>:	mov    QWORD PTR [rsp+0xf0],rax
+   0x0000555555559aae <+4830>:	movups xmm0,XMMWORD PTR [rsp]
+   0x0000555555559ab2 <+4834>:	movaps XMMWORD PTR [rsp+0xe0],xmm0
+   0x0000555555559aba <+4842>:	mov    rax,QWORD PTR [rsp+0xe0]
+   0x0000555555559ac2 <+4850>:	mov    QWORD PTR [rsp+0x60],rax
+   0x0000555555559ac7 <+4855>:	mov    rsi,QWORD PTR [rsp+0xf0]
+   0x0000555555559acf <+4863>:	mov    rax,QWORD PTR [rip+0x1e04a]        # 0x555555577b20 <const.1m+16>
+   0x0000555555559ad6 <+4870>:	mov    QWORD PTR [rsp+0x80],rax
+   0x0000555555559ade <+4878>:	movdqu xmm0,XMMWORD PTR [rip+0x1e02a]        # 0x555555577b10 <const.1m>
+   0x0000555555559ae6 <+4886>:	movdqa XMMWORD PTR [rsp+0x70],xmm0
+   0x0000555555559aec <+4892>:	lea    rbp,[rsp+0x40]
+   0x0000555555559af1 <+4897>:	mov    rdi,rbp
+   0x0000555555559af4 <+4900>:	mov    QWORD PTR [rsp+0x38],rsi
+   0x0000555555559af9 <+4905>:	lea    rdx,[rsp+0x70]
+   0x0000555555559afe <+4910>:	call   0x55555555b0a0 <_ZN6base646encode12encoded_size17h43525f70931340cdE>
+   0x0000555555559b03 <+4915>:	cmp    QWORD PTR [rsp+0x40],0x0
+   0x0000555555559b09 <+4921>:	je     0x555555559d07 <_ZN6binary4main17hf421c7ec894951b1E+5431>
+   0x0000555555559b0f <+4927>:	mov    rbx,QWORD PTR [rsp+0x48]
+   0x0000555555559b14 <+4932>:	test   rbx,rbx
+   0x0000555555559b17 <+4935>:	je     0x555555559b40 <_ZN6binary4main17hf421c7ec894951b1E+4976>
+   0x0000555555559b19 <+4937>:	mov    esi,0x1
+   0x0000555555559b1e <+4942>:	mov    rdi,rbx
+   0x0000555555559b21 <+4945>:	mov    rdx,r13
+   0x0000555555559b24 <+4948>:	call   0x55555555a250 <__rust_alloc>
+   0x0000555555559b29 <+4953>:	mov    r14,rax
+   0x0000555555559b2c <+4956>:	test   r14,r14
+   0x0000555555559b2f <+4959>:	jne    0x555555559b46 <_ZN6binary4main17hf421c7ec894951b1E+4982>
+   0x0000555555559b31 <+4961>:	jmp    0x555555559d30 <_ZN6binary4main17hf421c7ec894951b1E+5472>
+   0x0000555555559b36 <+4966>:	nop    WORD PTR cs:[rax+rax*1+0x0]
+   0x0000555555559b40 <+4976>:	mov    r14d,0x1
+   0x0000555555559b46 <+4982>:	mov    QWORD PTR [rsp+0xa0],r14
+   0x0000555555559b4e <+4990>:	mov    QWORD PTR [rsp+0xa8],rbx
+   0x0000555555559b56 <+4998>:	mov    QWORD PTR [rsp+0xb0],0x0
+   0x0000555555559b62 <+5010>:	mov    rax,QWORD PTR [rsp+0x80]
+   0x0000555555559b6a <+5018>:	mov    QWORD PTR [rsp+0x10],rax
+   0x0000555555559b6f <+5023>:	movdqa xmm0,XMMWORD PTR [rsp+0x70]
+   0x0000555555559b75 <+5029>:	movdqa XMMWORD PTR [rsp],xmm0
+   0x0000555555559b7a <+5034>:	mov    rdi,rbp
+   0x0000555555559b7d <+5037>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x0000555555559b82 <+5042>:	mov    rbp,r13
+   0x0000555555559b85 <+5045>:	mov    rdx,r13
+   0x0000555555559b88 <+5048>:	call   0x55555555b0a0 <_ZN6base646encode12encoded_size17h43525f70931340cdE>
+   0x0000555555559b8d <+5053>:	cmp    QWORD PTR [rsp+0x40],0x0
+   0x0000555555559b93 <+5059>:	je     0x555555559d1f <_ZN6binary4main17hf421c7ec894951b1E+5455>
+   0x0000555555559b99 <+5065>:	mov    r13,QWORD PTR [rsp+0x48]
+   0x0000555555559b9e <+5070>:	test   r13,r13
+   0x0000555555559ba1 <+5073>:	je     0x555555559c00 <_ZN6binary4main17hf421c7ec894951b1E+5168>
+   0x0000555555559ba3 <+5075>:	lea    rdi,[rsp+0xa0]
+   0x0000555555559bab <+5083>:	mov    rsi,r13
+   0x0000555555559bae <+5086>:	call   0x555555558360 <_ZN33_$LT$alloc..vec..Vec$LT$T$GT$$GT$7reserve17hff3cdc1123f50b03E>
+   0x0000555555559bb3 <+5091>:	mov    r14,QWORD PTR [rsp+0xa0]
+   0x0000555555559bbb <+5099>:	mov    rbx,QWORD PTR [rsp+0xb0]
+   0x0000555555559bc3 <+5107>:	lea    rdi,[r14+rbx*1]
+   0x0000555555559bc7 <+5111>:	cmp    r13,0x2
+   0x0000555555559bcb <+5115>:	jb     0x555555559be1 <_ZN6binary4main17hf421c7ec894951b1E+5137>
+   0x0000555555559bcd <+5117>:	lea    rdx,[r13-0x1]
+   0x0000555555559bd1 <+5121>:	lea    rbx,[rbx+r13*1-0x1]
+   0x0000555555559bd6 <+5126>:	xor    esi,esi
+   0x0000555555559bd8 <+5128>:	call   0x555555558078
+   0x0000555555559bdd <+5133>:	lea    rdi,[r14+rbx*1]
+   0x0000555555559be1 <+5137>:	mov    BYTE PTR [rdi],0x0
+   0x0000555555559be4 <+5140>:	inc    rbx
+   0x0000555555559be7 <+5143>:	mov    QWORD PTR [rsp+0xb0],rbx
+   0x0000555555559bef <+5151>:	jmp    0x555555559c02 <_ZN6binary4main17hf421c7ec894951b1E+5170>
+   0x0000555555559bf1 <+5153>:	data16 data16 data16 data16 data16 nop WORD PTR cs:[rax+rax*1+0x0]
+   0x0000555555559c00 <+5168>:	xor    ebx,ebx
+   0x0000555555559c02 <+5170>:	mov    rdi,QWORD PTR [rsp+0x60]
+   0x0000555555559c07 <+5175>:	mov    rsi,QWORD PTR [rsp+0x38]
+   0x0000555555559c0c <+5180>:	mov    rdx,rbp
+   0x0000555555559c0f <+5183>:	mov    rcx,r13
+   0x0000555555559c12 <+5186>:	mov    r8,r14
+   0x0000555555559c15 <+5189>:	mov    r9,rbx
+   0x0000555555559c18 <+5192>:	call   0x55555555aa00 <_ZN6base646encode29encode_with_padding_line_wrap17h200e5269b---Type <return> to continue, or q <return> to quit---
+dac38a9E>
+   0x0000555555559c1d <+5197>:	mov    rax,QWORD PTR [rsp+0xb0]
+   0x0000555555559c25 <+5205>:	mov    QWORD PTR [rsp+0x50],rax
+   0x0000555555559c2a <+5210>:	movdqu xmm0,XMMWORD PTR [rsp+0xa0]
+   0x0000555555559c33 <+5219>:	movdqa XMMWORD PTR [rsp+0x40],xmm0
+   0x0000555555559c39 <+5225>:	lea    rax,[rsp+0x40]
+   0x0000555555559c3e <+5230>:	mov    QWORD PTR [rsp+0xa0],rax
+   0x0000555555559c46 <+5238>:	lea    rax,[rip+0xffffffffffffeb43]        # 0x555555558790 <_ZN60_$LT$alloc..string..String$u20$as$u20$core..fmt..Display$GT$3fmt17hdafee51ac588e3beE>
+   0x0000555555559c4d <+5245>:	mov    QWORD PTR [rsp+0xa8],rax
+   0x0000555555559c55 <+5253>:	lea    rax,[rip+0x22b294]        # 0x555555784ef0 <ref.1S>
+   0x0000555555559c5c <+5260>:	mov    QWORD PTR [rsp],rax
+   0x0000555555559c60 <+5264>:	mov    QWORD PTR [rsp+0x8],0x2
+   0x0000555555559c69 <+5273>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x0000555555559c72 <+5282>:	lea    rax,[rsp+0xa0]
+   0x0000555555559c7a <+5290>:	mov    QWORD PTR [rsp+0x20],rax
+   0x0000555555559c7f <+5295>:	mov    QWORD PTR [rsp+0x28],0x1
+   0x0000555555559c88 <+5304>:	mov    r13,rbp
+   0x0000555555559c8b <+5307>:	mov    rdi,r13
+   0x0000555555559c8e <+5310>:	call   0x555555562bc0 <_ZN3std2io5stdio6_print17ha2600cbffab86873E>
+   0x0000555555559c93 <+5315>:	mov    rsi,QWORD PTR [rsp+0x48]
+   0x0000555555559c98 <+5320>:	test   rsi,rsi
+   0x0000555555559c9b <+5323>:	je     0x555555559cac <_ZN6binary4main17hf421c7ec894951b1E+5340>
+   0x0000555555559c9d <+5325>:	mov    rdi,QWORD PTR [rsp+0x40]
+   0x0000555555559ca2 <+5330>:	mov    edx,0x1
+   0x0000555555559ca7 <+5335>:	call   0x55555555a270 <__rust_dealloc>
+   0x0000555555559cac <+5340>:	mov    rsi,QWORD PTR [rsp+0xe8]
+   0x0000555555559cb4 <+5348>:	test   rsi,rsi
+   0x0000555555559cb7 <+5351>:	movabs r14,0x8421084210842109
+   0x0000555555559cc1 <+5361>:	je     0x555555559cd2 <_ZN6binary4main17hf421c7ec894951b1E+5378>
+   0x0000555555559cc3 <+5363>:	mov    edx,0x1
+   0x0000555555559cc8 <+5368>:	mov    rdi,QWORD PTR [rsp+0x60]
+   0x0000555555559ccd <+5373>:	call   0x55555555a270 <__rust_dealloc>
+   0x0000555555559cd2 <+5378>:	mov    QWORD PTR [rsp+0x178],0x0
+   0x0000555555559cde <+5390>:	mov    DWORD PTR [rsp+0x180],0xf4240
+   0x0000555555559ce9 <+5401>:	lea    rdi,[rsp+0x178]
+   0x0000555555559cf1 <+5409>:	call   0x5555555606f0 <_ZN3std6thread5sleep17heee2828c335b094dE>
+   0x0000555555559cf6 <+5414>:	jmp    0x555555559a10 <_ZN6binary4main17hf421c7ec894951b1E+4672>
+   0x0000555555559cfb <+5419>:	lea    rdi,[rip+0x22af86]        # 0x555555784c88 <ref.2>
+   0x0000555555559d02 <+5426>:	call   0x5555555727e0 <_ZN4core9panicking5panic17h7bac37468d8048c5E>
+   0x0000555555559d07 <+5431>:	lea    rdi,[rip+0x1de82]        # 0x555555577b90 <str.1q>
+   0x0000555555559d0e <+5438>:	lea    rdx,[rip+0x22b103]        # 0x555555784e18 <ref.1o>
+   0x0000555555559d15 <+5445>:	mov    esi,0x2d
+   0x0000555555559d1a <+5450>:	call   0x555555558440 <_ZN3std9panicking11begin_panic17hd434d3b372e7da22E>
+   0x0000555555559d1f <+5455>:	lea    rdi,[rip+0x1de9a]        # 0x555555577bc0 <str.1r>
+   0x0000555555559d26 <+5462>:	mov    esi,0x2b
+   0x0000555555559d2b <+5467>:	call   0x555555572920 <_ZN4core6option13expect_failed17hea9c17570c15aad1E>
+   0x0000555555559d30 <+5472>:	movups xmm0,XMMWORD PTR [rsp+0x8]
+   0x0000555555559d35 <+5477>:	movaps XMMWORD PTR [rsp+0x120],xmm0
+   0x0000555555559d3d <+5485>:	movaps xmm0,XMMWORD PTR [rsp+0x120]
+   0x0000555555559d45 <+5493>:	movups XMMWORD PTR [rsp+0x8],xmm0
+   0x0000555555559d4a <+5498>:	mov    rdi,rsp
+   0x0000555555559d4d <+5501>:	call   0x5555555587b0 <_ZN61_$LT$alloc..heap..Heap$u20$as$u20$alloc..allocator..Alloc$GT$3oom17hba3f1ad762ab25d1E>
+   0x0000555555559d52 <+5506>:	add    r15,0xfffffffffffffffa
+   0x0000555555559d56 <+5510>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d5b <+5515>:	add    r15,0xfffffffffffffffb
+   0x0000555555559d5f <+5519>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d64 <+5524>:	add    r15,0xfffffffffffffffc
+   0x0000555555559d68 <+5528>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d6d <+5533>:	add    r15,0xfffffffffffffffd
+   0x0000555555559d71 <+5537>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d76 <+5542>:	add    r15,0xfffffffffffffffe
+   0x0000555555559d7a <+5546>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d7f <+5551>:	dec    r15
+   0x0000555555559d82 <+5554>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d87 <+5559>:	add    ecx,edi
+   0x0000555555559d89 <+5561>:	test   ecx,ecx
+   0x0000555555559d8b <+5563>:	cmovg  r15,rbx
+   0x0000555555559d8f <+5567>:	add    r15,r8
+   0x0000555555559d92 <+5570>:	mov    bpl,0x3d
+   0x0000555555559d95 <+5573>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559d9a <+5578>:	lea    rdi,[rip+0x22b05f]        # 0x555555784e00 <panic_bounds_check_loc.1k>
+   0x0000555555559da1 <+5585>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559da6 <+5590>:	mov    rdi,0xffffffffffffffe0
+   0x0000555555559dad <+5597>:	mov    rsi,r10
+   0x0000555555559db0 <+5600>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x0000555555559db5 <+5605>:	mov    rdi,r10
+   0x0000555555559db8 <+5608>:	mov    rsi,rbx
+   0x0000555555559dbb <+5611>:	call   0x555555572980 <_ZN4core5slice20slice_index_len_fail17hbe9a58121bca4535E>
+   0x0000555555559dc0 <+5616>:	mov    rdi,rdx
+   0x0000555555559dc3 <+5619>:	mov    rsi,r9
+   0x0000555555559dc6 <+5622>:	call   0x555555572980 <_ZN4core5slice20slice_index_len_fail17hbe9a58121bca4535E>
+   0x0000555555559dcb <+5627>:	add    r15,0xfffffffffffffff0
+   0x0000555555559dcf <+5631>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559dd4 <+5636>:	add    r15,0xfffffffffffffff1
+   0x0000555555559dd8 <+5640>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559ddd <+5645>:	add    r15,0xfffffffffffffff2
+   0x0000555555559de1 <+5649>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559de6 <+5654>:	add    r15,0xfffffffffffffff3
+   0x0000555555559dea <+5658>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559def <+5663>:	add    r15,0xfffffffffffffff4
+   0x0000555555559df3 <+5667>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559df8 <+5672>:	add    r15,0xfffffffffffffff5
+   0x0000555555559dfc <+5676>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e01 <+5681>:	add    r15,0xfffffffffffffff6
+   0x0000555555559e05 <+5685>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e0a <+5690>:	add    r15,0xfffffffffffffff7
+   0x0000555555559e0e <+5694>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e13 <+5699>:	add    r15,0xfffffffffffffff8
+   0x0000555555559e17 <+5703>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e1c <+5708>:	add    r15,0xfffffffffffffff9
+   0x0000555555559e20 <+5712>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e25 <+5717>:	inc    r15
+   0x0000555555559e28 <+5720>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e2d <+5725>:	add    r15,0x2
+   0x0000555555559e31 <+5729>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e36 <+5734>:	add    r15,0x3
+   0x0000555555559e3a <+5738>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e3f <+5743>:	add    r15,0x4
+   0x0000555555559e43 <+5747>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e48 <+5752>:	add    r15,0x5
+   0x0000555555559e4c <+5756>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e51 <+5761>:	add    r15,0x6
+   0x0000555555559e55 <+5765>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e5a <+5770>:	add    r15,0x7
+   0x0000555555559e5e <+5774>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e63 <+5779>:	add    r15,0x8
+   0x0000555555559e67 <+5783>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e6c <+5788>:	add    r15,0x9
+   0x0000555555559e70 <+5792>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e75 <+5797>:	add    r15,0xa
+   0x0000555555559e79 <+5801>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e7e <+5806>:	add    r15,0xb
+   0x0000555555559e82 <+5810>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e87 <+5815>:	add    r15,0xc
+   0x0000555555559e8b <+5819>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e90 <+5824>:	add    r15,0xd
+   0x0000555555559e94 <+5828>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559e99 <+5833>:	add    r15,0xe
+   0x0000555555559e9d <+5837>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559ea2 <+5842>:	add    r15,0xf
+   0x0000555555559ea6 <+5846>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559eab <+5851>:	add    r15,0xfffffffffffffff9
+   0x0000555555559eaf <+5855>:	mov    rdi,r15
+   0x0000555555559eb2 <+5858>:	mov    rsi,rbx
+   0x0000555555559eb5 <+5861>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x0000555555559eba <+5866>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x0000555555559ebf <+5871>:	add    rdi,0x6
+   0x0000555555559ec3 <+5875>:	mov    rsi,r9
+   0x0000555555559ec6 <+5878>:	call   0x555555572980 <_ZN4core5slice20slice_index_len_fail17hbe9a58121bca4535E>
+   0x0000555555559ecb <+5883>:	lea    rdi,[rip+0x22ae36]        # 0x555555784d08 <panic_bounds_check_loc.P>
+   0x0000555555559ed2 <+5890>:	xor    esi,esi
+   0x0000555555559ed4 <+5892>:	xor    edx,edx
+   0x0000555555559ed6 <+5894>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559edb <+5899>:	xor    edi,edi
+   0x0000555555559edd <+5901>:	mov    r15,rcx
+   0x0000555555559ee0 <+5904>:	jmp    0x555555559fbb <_ZN6binary4main17hf421c7ec894951b1E+6123>
+   0x0000555555559ee5 <+5909>:	lea    rdi,[rip+0x22ae34]        # 0x555555784d20 <panic_bounds_check_loc.S>
+   0x0000555555559eec <+5916>:	mov    esi,0x1
+   0x0000555555559ef1 <+5921>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559ef6 <+5926>:	lea    rdi,[rip+0x22ae3b]        # 0x555555784d38 <panic_bounds_check_loc.V>
+   0x0000555555559efd <+5933>:	mov    esi,0x2
+   0x0000555555559f02 <+5938>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f07 <+5943>:	lea    rdi,[rip+0x22ae42]        # 0x555555784d50 <panic_bounds_check_loc.Y>
+   0x0000555555559f0e <+5950>:	mov    esi,0x3
+   0x0000555555559f13 <+5955>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f18 <+5960>:	lea    rdi,[rip+0x22ae49]        # 0x555555784d68 <panic_bounds_check_loc.11>
+   0x0000555555559f1f <+5967>:	mov    esi,0x4
+   0x0000555555559f24 <+5972>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f29 <+5977>:	lea    rdi,[rip+0x22ae50]        # 0x555555784d80 <panic_bounds_check_loc.14>
+   0x0000555555559f30 <+5984>:	mov    esi,0x5
+   0x0000555555559f35 <+5989>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f3a <+5994>:	lea    rdi,[rip+0x22ae57]        # 0x555555784d98 <panic_bounds_check_loc.17>
+   0x0000555555559f41 <+6001>:	mov    esi,0x6
+   0x0000555555559f46 <+6006>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f4b <+6011>:	lea    rdi,[rip+0x22ae5e]        # 0x555555784db0 <panic_bounds_check_loc.1a>
+   0x0000555555559f52 <+6018>:	mov    esi,0x7
+   0x0000555555559f57 <+6023>:	call   0x555555572850 <_ZN4core9panicking18panic_bounds_check17h8ce175fa420c7319E>
+   0x0000555555559f5c <+6028>:	add    r15,0x8
+   0x0000555555559f60 <+6032>:	mov    rdi,0xfffffffffffffff8
+   0x0000555555559f67 <+6039>:	mov    rsi,r15
+   0x0000555555559f6a <+6042>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x0000555555559f6f <+6047>:	add    r15,0x8
+   0x0000555555559f73 <+6051>:	mov    rdi,r15
+   0x0000555555559f76 <+6054>:	mov    rsi,rbx
+   0x0000555555559f79 <+6057>:	call   0x555555572980 <_ZN4core5slice20slice_index_len_fail17hbe9a58121bca4535E>
+   0x0000555555559f7e <+6062>:	mov    rsi,rcx
+   0x0000555555559f81 <+6065>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x0000555555559f86 <+6070>:	mov    rdi,rcx
+   0x0000555555559f89 <+6073>:	mov    rsi,r9
+   0x0000555555559f8c <+6076>:	call   0x555555572980 <_ZN4core5slice20slice_index_len_fail17hbe9a58121bca4535E>
+   0x0000555555559f91 <+6081>:	or     r15,0x1
+   0x0000555555559f95 <+6085>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559f97 <+6087>:	or     r15,0x2
+   0x0000555555559f9b <+6091>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559f9d <+6093>:	or     r15,0x3
+   0x0000555555559fa1 <+6097>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559fa3 <+6099>:	or     r15,0x4
+   0x0000555555559fa7 <+6103>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559fa9 <+6105>:	or     r15,0x5
+   0x0000555555559fad <+6109>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559faf <+6111>:	or     r15,0x6
+   0x0000555555559fb3 <+6115>:	jmp    0x555555559fb9 <_ZN6binary4main17hf421c7ec894951b1E+6121>
+   0x0000555555559fb5 <+6117>:	or     r15,0x7
+   0x0000555555559fb9 <+6121>:	xor    edi,edi
+   0x0000555555559fbb <+6123>:	movzx  ebx,bpl
+   0x0000555555559fbf <+6127>:	shl    rbx,0x8
+   0x0000555555559fc3 <+6131>:	cmp    BYTE PTR [rsp+0x6c],0x0
+   0x0000555555559fc8 <+6136>:	je     0x555555559fe9 <_ZN6binary4main17hf421c7ec894951b1E+6169>
+   0x0000555555559fca <+6138>:	mov    rsi,QWORD PTR [rsp+0x78]
+   0x0000555555559fcf <+6143>:	test   rsi,rsi
+   0x0000555555559fd2 <+6146>:	je     0x555555559fe9 <_ZN6binary4main17hf421c7ec894951b1E+6169>
+   0x0000555555559fd4 <+6148>:	mov    edx,0x1
+   0x0000555555559fd9 <+6153>:	mov    rbp,rdi
+   0x0000555555559fdc <+6156>:	mov    rdi,QWORD PTR [rsp+0x38]
+   0x0000555555559fe1 <+6161>:	call   0x55555555a270 <__rust_dealloc>
+   0x0000555555559fe6 <+6166>:	mov    rdi,rbp
+   0x0000555555559fe9 <+6169>:	or     rbx,rdi
+   0x0000555555559fec <+6172>:	mov    rsi,QWORD PTR [rsp+0x48]
+   0x0000555555559ff1 <+6177>:	test   rsi,rsi
+   0x0000555555559ff4 <+6180>:	je     0x55555555a005 <_ZN6binary4main17hf421c7ec894951b1E+6197>
+   0x0000555555559ff6 <+6182>:	mov    rdi,QWORD PTR [rsp+0x40]
+   0x0000555555559ffb <+6187>:	mov    edx,0x1
+   0x000055555555a000 <+6192>:	call   0x55555555a270 <__rust_dealloc>
+   0x000055555555a005 <+6197>:	mov    QWORD PTR [rsp],rbx
+   0x000055555555a009 <+6201>:	mov    QWORD PTR [rsp+0x8],r15
+   0x000055555555a00e <+6206>:	mov    rdi,rsp
+   0x000055555555a011 <+6209>:	call   0x5555555586e0 <_ZN4core6result13unwrap_failed17hd73485f0fdec7871E>
+   0x000055555555a016 <+6214>:	lea    rax,[rip+0xffffffffffffe753]        # 0x555555558770 <_ZN55_$LT$$RF$$u27$a$u20$T$u20$as$u20$core..fmt..Display$GT$3fmt17h5a42737e80ae02e7E>
+   0x000055555555a01d <+6221>:	movq   xmm0,rax
+   0x000055555555a022 <+6226>:	lea    rax,[rip+0x22adaf]        # 0x555555784dd8 <ref.1h>
+   0x000055555555a029 <+6233>:	movq   xmm1,rax
+   0x000055555555a02e <+6238>:	punpcklqdq xmm1,xmm0
+   0x000055555555a032 <+6242>:	movdqa XMMWORD PTR [rsp+0x140],xmm1
+   0x000055555555a03b <+6251>:	lea    rax,[rip+0x22ad86]        # 0x555555784dc8 <ref.1f>
+   0x000055555555a042 <+6258>:	mov    QWORD PTR [rsp],rax
+   0x000055555555a046 <+6262>:	mov    QWORD PTR [rsp+0x8],0x1
+   0x000055555555a04f <+6271>:	mov    QWORD PTR [rsp+0x10],0x0
+   0x000055555555a058 <+6280>:	lea    rax,[rsp+0x140]
+   0x000055555555a060 <+6288>:	mov    QWORD PTR [rsp+0x20],rax
+   0x000055555555a065 <+6293>:	mov    QWORD PTR [rsp+0x28],0x1
+   0x000055555555a06e <+6302>:	lea    rsi,[rip+0x22ad73]        # 0x555555784de8 <ref.1i>
+   0x000055555555a075 <+6309>:	mov    rdi,rsp
+   0x000055555555a078 <+6312>:	call   0x55555556a010 <_ZN3std9panicking15begin_panic_fmt17h01bbd4a0f261f6c8E>
+   0x000055555555a07d <+6317>:	movups xmm0,XMMWORD PTR [rsp+0x8]
+   0x000055555555a082 <+6322>:	movaps XMMWORD PTR [rsp+0xa0],xmm0
+   0x000055555555a08a <+6330>:	mov    QWORD PTR [rsp],0x0
+   0x000055555555a092 <+6338>:	movaps xmm0,XMMWORD PTR [rsp+0xa0]
+   0x000055555555a09a <+6346>:	jmp    0x555555559d45 <_ZN6binary4main17hf421c7ec894951b1E+5493>
+   0x000055555555a09f <+6351>:	lea    rdi,[rip+0x22abe2]        # 0x555555784c88 <ref.2>
+   0x000055555555a0a6 <+6358>:	call   0x5555555727e0 <_ZN4core9panicking5panic17h7bac37468d8048c5E>
+   0x000055555555a0ab <+6363>:	lea    rdi,[rip+0x1dade]        # 0x555555577b90 <str.1q>
+   0x000055555555a0b2 <+6370>:	lea    rdx,[rip+0x22ad5f]        # 0x555555784e18 <ref.1o>
+   0x000055555555a0b9 <+6377>:	mov    esi,0x2d
+   0x000055555555a0be <+6382>:	call   0x555555558440 <_ZN3std9panicking11begin_panic17hd434d3b372e7da22E>
+   0x000055555555a0c3 <+6387>:	lea    rdi,[rip+0x1daf6]        # 0x555555577bc0 <str.1r>
+   0x000055555555a0ca <+6394>:	mov    esi,0x2b
+   0x000055555555a0cf <+6399>:	call   0x555555572920 <_ZN4core6option13expect_failed17hea9c17570c15aad1E>
+   0x000055555555a0d4 <+6404>:	lea    rdi,[rip+0x1da05]        # 0x555555577ae0 <str.1l>
+   0x000055555555a0db <+6411>:	mov    esi,0x2e
+   0x000055555555a0e0 <+6416>:	call   0x555555572920 <_ZN4core6option13expect_failed17hea9c17570c15aad1E>
+   0x000055555555a0e5 <+6421>:	mov    rdi,r8
+   0x000055555555a0e8 <+6424>:	mov    rsi,rbx
+   0x000055555555a0eb <+6427>:	call   0x5555555729f0 <_ZN4core5slice22slice_index_order_fail17hb9a50cb9e107e8b3E>
+   0x000055555555a0f0 <+6432>:	mov    rax,QWORD PTR [rsp+0x90]
+   0x000055555555a0f8 <+6440>:	mov    QWORD PTR [rsp+0x20],rax
+   0x000055555555a0fd <+6445>:	movdqa xmm0,XMMWORD PTR [rsp+0x70]
+   0x000055555555a103 <+6451>:	movdqa xmm1,XMMWORD PTR [rsp+0x80]
+   0x000055555555a10c <+6460>:	movdqa XMMWORD PTR [rsp+0x10],xmm1
+   0x000055555555a112 <+6466>:	movdqa XMMWORD PTR [rsp],xmm0
+   0x000055555555a117 <+6471>:	mov    rdi,rsp
+   0x000055555555a11a <+6474>:	call   0x555555558620 <_ZN4core6result13unwrap_failed17h0443084306b5789fE>
+   0x000055555555a11f <+6479>:	add    rbx,r8
+   0x000055555555a122 <+6482>:	mov    bpl,0x3d
+   0x000055555555a125 <+6485>:	xor    edi,edi
+   0x000055555555a127 <+6487>:	mov    r15,rbx
+   0x000055555555a12a <+6490>:	jmp    0x555555559fbb <_ZN6binary4main17hf421c7ec894951b1E+6123>
+   0x000055555555a12f <+6495>:	add    r8,r12
+   0x000055555555a132 <+6498>:	add    r8,rcx
+   0x000055555555a135 <+6501>:	xor    edi,edi
+   0x000055555555a137 <+6503>:	mov    r15,r8
+   0x000055555555a13a <+6506>:	jmp    0x555555559fbb <_ZN6binary4main17hf421c7ec894951b1E+6123>
+   0x000055555555a13f <+6511>:	mov    rdi,rsp
+   0x000055555555a142 <+6514>:	call   0x5555555587b0 <_ZN61_$LT$alloc..heap..Heap$u20$as$u20$alloc..allocator..Alloc$GT$3oom17hba3f1ad762ab25d1E>
+   0x000055555555a147 <+6519>:	mov    rbx,rax
+   0x000055555555a14a <+6522>:	jmp    0x55555555a1a9 <_ZN6binary4main17hf421c7ec894951b1E+6617>
+   0x000055555555a14c <+6524>:	jmp    0x55555555a1e0 <_ZN6binary4main17hf421c7ec894951b1E+6672>
+   0x000055555555a151 <+6529>:	mov    rbx,rax
+   0x000055555555a154 <+6532>:	jmp    0x55555555a1f0 <_ZN6binary4main17hf421c7ec894951b1E+6688>
+   0x000055555555a159 <+6537>:	jmp    0x55555555a1fc <_ZN6binary4main17hf421c7ec894951b1E+6700>
+   0x000055555555a15e <+6542>:	mov    rbx,rax
+   0x000055555555a161 <+6545>:	jmp    0x55555555a19f <_ZN6binary4main17hf421c7ec894951b1E+6607>
+   0x000055555555a163 <+6547>:	mov    rbx,rax
+   0x000055555555a166 <+6550>:	jmp    0x55555555a207 <_ZN6binary4main17hf421c7ec894951b1E+6711>
+   0x000055555555a16b <+6555>:	mov    rbx,rax
+   0x000055555555a16e <+6558>:	lea    rdi,[rsp+0x40]
+   0x000055555555a173 <+6563>:	call   0x555555558560 <_ZN4core3ptr13drop_in_place17h4da26dd4571c256fE>
+   0x000055555555a178 <+6568>:	jmp    0x55555555a1a9 <_ZN6binary4main17hf421c7ec894951b1E+6617>
+   0x000055555555a17a <+6570>:	mov    rbx,rax
+   0x000055555555a17d <+6573>:	jmp    0x55555555a19f <_ZN6binary4main17hf421c7ec894951b1E+6607>
+   0x000055555555a17f <+6575>:	jmp    0x55555555a1b8 <_ZN6binary4main17hf421c7ec894951b1E+6632>
+   0x000055555555a181 <+6577>:	mov    rbx,rax
+   0x000055555555a184 <+6580>:	lea    rdi,[rsp+0x70]
+   0x000055555555a189 <+6585>:	jmp    0x55555555a1b1 <_ZN6binary4main17hf421c7ec894951b1E+6625>
+   0x000055555555a18b <+6587>:	mov    rbx,rax
+   0x000055555555a18e <+6590>:	cmp    BYTE PTR [rsp+0x6c],0x0
+   0x000055555555a193 <+6595>:	je     0x55555555a19f <_ZN6binary4main17hf421c7ec894951b1E+6607>
+   0x000055555555a195 <+6597>:	lea    rdi,[rsp+0x70]
+   0x000055555555a19a <+6602>:	call   0x555555558590 <_ZN4core3ptr13drop_in_place17hc6007a3fecb81cd3E>
+   0x000055555555a19f <+6607>:	lea    rdi,[rsp+0x40]
+   0x000055555555a1a4 <+6612>:	call   0x555555558590 <_ZN4core3ptr13drop_in_place17hc6007a3fecb81cd3E>
+   0x000055555555a1a9 <+6617>:	lea    rdi,[rsp+0x120]
+   0x000055555555a1b1 <+6625>:	call   0x555555558560 <_ZN4core3ptr13drop_in_place17h4da26dd4571c256fE>
+   0x000055555555a1b6 <+6630>:	jmp    0x55555555a1bb <_ZN6binary4main17hf421c7ec894951b1E+6635>
+   0x000055555555a1b8 <+6632>:	mov    rbx,rax
+   0x000055555555a1bb <+6635>:	lea    rdi,[rsp+0x160]
+   0x000055555555a1c3 <+6643>:	call   0x5555555585d0 <_ZN4core3ptr13drop_in_place17hdd355b5c28e0794fE>
+   0x000055555555a1c8 <+6648>:	jmp    0x55555555a214 <_ZN6binary4main17hf421c7ec894951b1E+6724>
+   0x000055555555a1ca <+6650>:	mov    rbx,rax
+   0x000055555555a1cd <+6653>:	jmp    0x55555555a207 <_ZN6binary4main17hf421c7ec894951b1E+6711>
+   0x000055555555a1cf <+6655>:	mov    rbx,rax
+   0x000055555555a1d2 <+6658>:	lea    rdi,[rsp+0x40]
+   0x000055555555a1d7 <+6663>:	jmp    0x55555555a1eb <_ZN6binary4main17hf421c7ec894951b1E+6683>
+   0x000055555555a1d9 <+6665>:	mov    rbx,rax
+   0x000055555555a1dc <+6668>:	jmp    0x55555555a1f0 <_ZN6binary4main17hf421c7ec894951b1E+6688>
+   0x000055555555a1de <+6670>:	jmp    0x55555555a1fc <_ZN6binary4main17hf421c7ec894951b1E+6700>
+   0x000055555555a1e0 <+6672>:	mov    rbx,rax
+   0x000055555555a1e3 <+6675>:	lea    rdi,[rsp+0xa0]
+   0x000055555555a1eb <+6683>:	call   0x555555558560 <_ZN4core3ptr13drop_in_place17h4da26dd4571c256fE>
+   0x000055555555a1f0 <+6688>:	lea    rdi,[rsp+0xe0]
+   0x000055555555a1f8 <+6696>:	jmp    0x55555555a202 <_ZN6binary4main17hf421c7ec894951b1E+6706>
+   0x000055555555a1fa <+6698>:	jmp    0x55555555a1fc <_ZN6binary4main17hf421c7ec894951b1E+6700>
+   0x000055555555a1fc <+6700>:	mov    rbx,rax
+   0x000055555555a1ff <+6703>:	mov    rdi,rsp
+   0x000055555555a202 <+6706>:	call   0x555555558560 <_ZN4core3ptr13drop_in_place17h4da26dd4571c256fE>
+   0x000055555555a207 <+6711>:	lea    rdi,[rsp+0x140]
+   0x000055555555a20f <+6719>:	call   0x555555558560 <_ZN4core3ptr13drop_in_place17h4da26dd4571c256fE>
+   0x000055555555a214 <+6724>:	lea    rdi,[rsp+0x118]
+   0x000055555555a21c <+6732>:	call   0x5555555585f0 <_ZN4core3ptr13drop_in_place17he450d81916622ecaE>
+   0x000055555555a221 <+6737>:	mov    rdi,rbx
+   0x000055555555a224 <+6740>:	call   0x555555558200
