@@ -6,6 +6,7 @@ pages:
         - 'Lovelace':
                 - 'Overview': 'PACTF-2018/lovelace/README.md'
                 - 'A Picture is a Thousand Words (10 points)': 'PACTF-2018/lovelace/a-picture-is-a-thousand-words/README.md'
+                - 'Straight From The Emperor (10 points)': 'PACTF-2018/lovelace/straight-emperor/README.md'
                 - 'Let Me In (20 points)': 'PACTF-2018/lovelace/let-me-in/README.md'
                 - 'Go Git It (25 points)': 'PACTF-2018/lovelace/go-git-it/README.md'
                 - 'Who Said It? (25 points)': 'PACTF-2018/lovelace/who-said-it/README.md'
