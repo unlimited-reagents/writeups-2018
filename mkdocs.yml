@@ -13,6 +13,7 @@ pages:
                 - 'Credit Card Leak (35 points)': 'PACTF-2018/lovelace/credit-card-leak/README.md'
                 - 'Third Eye (40 points)': 'PACTF-2018/lovelace/third-eye/README.md'
                 - 'Getting to Know GDB (50 points)': 'PACTF-2018/lovelace/getting-to-know-gdb/README.md'
+                - 'Security Through Obscurity (50 points)': 'PACTF-2018/lovelace/security-obscurity/README.md'
                 - 'Beats by Dr. K (55 points)': 'PACTF-2018/lovelace/beats-by-dr-k/README.md'
                 - 'The Lottery, Part Two: Untwisting Fate! (90 points)': 'PACTF-2018/lovelace/lottery-part-2/README.md'
                 - 'Siblings (120 Points)': 'PACTF-2018/lovelace/siblings/README.md'
