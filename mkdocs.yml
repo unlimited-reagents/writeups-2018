@@ -15,5 +15,6 @@ pages:
                 - 'Getting to Know GDB (50 points)': 'PACTF-2018/lovelace/getting-to-know-gdb/README.md'
                 - 'Beats by Dr. K (55 points)': 'PACTF-2018/lovelace/beats-by-dr-k/README.md'
                 - 'The Lottery, Part Two: Untwisting Fate! (90 points)': 'PACTF-2018/lovelace/lottery-part-2/README.md'
+                - 'Siblings (120 Points)': 'PACTF-2018/lovelace/siblings/README.md'
         - 'Hopper':
                 - 'Overview': 'PACTF-2018/hopper/README.md'
