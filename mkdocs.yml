@@ -11,6 +11,7 @@ pages:
                 - 'Let Me In (20 points)': 'PACTF-2018/lovelace/let-me-in/README.md'
                 - 'Go Git It (25 points)': 'PACTF-2018/lovelace/go-git-it/README.md'
                 - 'Who Said It? (25 points)': 'PACTF-2018/lovelace/who-said-it/README.md'
+                - 'Bad Melody (30 points)': 'PACTF-2018/lovelace/bad-melody/README.md'
                 - 'Open Sourcery 2018 (30 points)': 'PACTF-2018/lovelace/open-sourcery-2018/README.md'
                 - 'Credit Card Leak (35 points)': 'PACTF-2018/lovelace/credit-card-leak/README.md'
                 - 'Third Eye (40 points)': 'PACTF-2018/lovelace/third-eye/README.md'
