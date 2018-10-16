@@ -84,15 +84,19 @@ Running `calc(0x18E9F)` yields `3610015907` in just 0.3 sec.
 
 Now all we have to do is skip over calculate_flag and set the result directly to 3610015907. We can achieve this by opening the binary in GDB and jumping past `get_key()`
 
-![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/main.png "main")
+![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/main.png "main function")
 
-From here we run with `r` and let it hit the first breakpoint. Once it does, we execute `jump *0x04008d` to skip over `get_key()`. Examining the get key function, we see that the key is stored at `0x6010b0` so we can run `set *0x6010b0 = 3610015907` to put the desired value in key.
+From here we run with `r` and let it hit the first breakpoint. Once it does, we execute `jump *0x04008d` to skip over `get_key()`. 
 
-![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/get_key.png "main")
+![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/bp1.png "break point 1")
+
+Examining the get key function, we see that the key is stored at `0x6010b0` so we can run `set *0x6010b0 = 3610015907` to put the desired value in key.
+
+![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/get_key.png "get key function")
 
 Continuing with `c` gives us the flag.
 
-![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/flag.png "main")
+![alt-text](https://github.com/unlimited-reagents/writeups-2018/raw/master/PICOCTF-2018/be-quick-or-be-dead-3/flag.png "flag")
 
 
 `picoCTF{dynamic_pr0gramming_ftw_1ffc009d}`
