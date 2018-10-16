@@ -8,7 +8,7 @@ Have you heard of z3?
 
 ## Writeup
 
-Reading the `decrypt.py` that is provided, we see that the single passed in argument (`sys.argv[1]`) is sent into verify as `x` and then used only once in the creation of the array `b` as `[(x >> i) & 1 for i in range(length)]`. This is a familiar statement and we can quickly note that `b[i] = "is the ith bit of x set?"`. This essentially means that we need to find the initial `length` booleans need to be set properly for us to pass verify() (64 in the case of map1 and 128 in the case of map2).
+Reading the `decrypt.py` that is provided, we see that the single passed in argument (`sys.argv[1]`) is sent into verify as `x` and then used only once in the creation of the array `b` as `[(x >> i) & 1 for i in range(length)]`. This is a familiar statement and we can quickly note that `b[i] = "is the ith bit of x set?"`. This essentially means that the initial `length` booleans need to be set properly for us to pass verify() (64 in the case of map1 and 128 in the case of map2).
 
 After some more inspection we learn that all this code is doing is reading in gate x as either the `or` or `xor` of two previously defined gates (with some of these 2 inputs being negated). The final goal is to get gate `check[0]` to output `check[1]`, so we can see right away that this is a constraint satisfiability challenge.
 
