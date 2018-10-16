@@ -36,16 +36,16 @@ Now we steal the input from decrypt.py
 
 ```python
 for name, args in gates:
-        if name == 'true':
-            b.append(1)
-        else:
-            u1 = b[args[0][0]] ^ args[0][1]
-            u2 = b[args[1][0]] ^ args[1][1]
-            if name == 'or':
-                b.append(u1 | u2)
-            elif name == 'xor':
-                b.append(u1 ^ u2)
-    return b[check[0]] ^ check[1]
+    if name == 'true':
+        b.append(1)
+    else:
+        u1 = b[args[0][0]] ^ args[0][1]
+        u2 = b[args[1][0]] ^ args[1][1]
+        if name == 'or':
+            b.append(u1 | u2)
+        elif name == 'xor':
+            b.append(u1 ^ u2)
+return b[check[0]] ^ check[1]
 ```
 Instead of computing u1 and u2 directly, we must instantiate them as new (helper) Bools for z3. 
 ```python
