@@ -22,3 +22,8 @@ pages:
                 - 'Siblings (120 Points)': 'PACTF-2018/lovelace/siblings/README.md'
         - 'Hopper':
                 - 'Overview': 'PACTF-2018/hopper/README.md'
+- picoCTF 2018:
+        - 'be-quick-or-be-dead-3 (350 points)': 'PICOCTF-2018/be-quick-or-be-dead-3/README.md'
+        - 'James Brahm Returns (700 points)': 'PICOCTF-2018/james-brahm-returns/README.md'
+        - 'circuit123 (800 points)': 'PICOCTF-2018/circuit123/README.md'
+        - 'Dog or Frog (900 points)': 'PICOCTF-2018/dog-or-frog/README.md'
