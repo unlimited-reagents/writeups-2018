@@ -61,9 +61,9 @@ Now we feed this new constraint as a function of `u1`, `u2` and output `b[-1]` (
 
 ```python
 if name == 'or':
-	s.add(b[-1] == Or(u1,u2))
+    s.add(b[-1] == Or(u1,u2))
 elif name == 'xor':
-	s.add(b[-1] == Xor(u1,u2))
+    s.add(b[-1] == Xor(u1,u2))
 ```
 
 Our final code then looks like:
@@ -89,9 +89,9 @@ for i in tqdm(range(len(gates))):
 
         b.append(Bool(i+length))
         if name == 'or':
-        	s.add(b[-1] == Or(u1,u2))
+            s.add(b[-1] == Or(u1,u2))
         elif name == 'xor':
-        	s.add(b[-1] == Xor(u1,u2))
+            s.add(b[-1] == Xor(u1,u2))
 
 u = Not(b[check[0]]) if check[1] else b[check[0]]
 s.add(u)
@@ -101,9 +101,9 @@ m = s.model()
 
 ans = 0
 for i in range(length):
-	ans *= 2
-	ans += is_true(m[b[length-i-1]])
-	
+    ans *= 2
+    ans += is_true(m[b[length-i-1]])
+    
 print ans
 ```
 
